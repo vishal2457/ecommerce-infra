@@ -1,0 +1,1059 @@
+[2021-05-19T10:44:38.989] [ERROR] Paperbird - Something went wrong: ReferenceError: successResponses is not defined
+    at C:\Projects\paperbird\server\routes\Dashboard\index.js:10:5
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at module.exports (C:\Projects\paperbird\server\middlewares\jwtauth.js:56:5)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at C:\Projects\paperbird\server\app.js:177:3
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+[2021-05-19T10:50:48.670] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][10:44:00 AM], All data
+[2021-05-19T11:07:44.718] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][10:44:00 AM], Purchase order of suppliers
+[2021-05-19T11:07:44.746] [INFO] Paperbird - [/getAll, {"get":true}][10:44:00 AM], All supplier warehouse
+[2021-05-19T11:07:45.411] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][10:44:00 AM], All dispatches
+[2021-05-19T11:07:45.447] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][10:44:00 AM], Purchase order of suppliers
+[2021-05-19T11:07:45.454] [INFO] Paperbird - [/getAll, {"get":true}][10:44:00 AM], All supplier warehouse
+[2021-05-19T11:07:45.890] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][10:44:00 AM], All dispatches
+[2021-05-19T11:07:47.215] [INFO] Paperbird - [/getSingleDispatchOrder/:id/:dispatchID, {"get":true}][10:44:00 AM], all order
+[2021-05-19T11:07:51.291] [INFO] Paperbird - [/getAll, {"post":true}][10:44:00 AM], All orders
+[2021-05-19T11:07:51.775] [INFO] Paperbird - [/getAll, {"post":true}][10:44:00 AM], All orders
+[2021-05-19T11:07:53.935] [INFO] Paperbird - [/singleOrderDetail/:poID, {"get":true}][10:44:00 AM], Single order details
+[2021-05-19T11:07:55.892] [INFO] Paperbird - [/getAll, {"post":true}][10:44:00 AM], All orders
+[2021-05-19T11:07:56.969] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][10:44:00 AM], Purchase order of suppliers
+[2021-05-19T11:07:56.978] [INFO] Paperbird - [/getAll, {"get":true}][10:44:00 AM], All supplier warehouse
+[2021-05-19T11:18:50.142] [INFO] Paperbird - [/getOrderDetail/:id/:type, {"get":true}][11:13:27 AM], Order Detail
+[2021-05-19T11:18:51.821] [INFO] Paperbird - [/getOrderDetail/:id/:type, {"get":true}][11:13:27 AM], Order Detail
+[2021-05-19T11:19:24.473] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][11:13:27 AM], All dispatches
+[2021-05-19T11:19:24.493] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][11:13:27 AM], Purchase order of suppliers
+[2021-05-19T11:19:24.509] [INFO] Paperbird - [/getAll, {"get":true}][11:13:27 AM], All supplier warehouse
+[2021-05-19T11:19:24.951] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][11:13:27 AM], All dispatches
+[2021-05-19T11:19:28.490] [INFO] Paperbird - [/getSingleDispatchOrder/:id/:dispatchID, {"get":true}][11:13:27 AM], all order
+[2021-05-19T11:19:29.620] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][11:13:27 AM], All dispatches
+[2021-05-19T11:19:30.078] [INFO] Paperbird - [/getSingleDispatchOrder/:id/:dispatchID, {"get":true}][11:13:27 AM], all order
+[2021-05-19T11:19:31.469] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][11:13:27 AM], All dispatches
+[2021-05-19T11:19:33.536] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][11:13:27 AM], Purchase order of suppliers
+[2021-05-19T11:19:33.545] [INFO] Paperbird - [/getAll, {"get":true}][11:13:27 AM], All supplier warehouse
+[2021-05-19T11:19:44.745] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:19:44.748] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:19:44.801] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:19:44.865] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:19:44.879] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:19:44.891] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:19:44.911] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:19:44.923] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:19:44.931] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:19:44.939] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][11:13:27 AM], All customer groups
+[2021-05-19T11:19:45.009] [INFO] Paperbird - [/getSupplier, {"post":true}][11:13:27 AM], Supplier Data
+[2021-05-19T11:19:45.133] [INFO] Paperbird - [/allProducts, {"post":true}][11:13:27 AM], All products
+[2021-05-19T11:21:23.687] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:23.704] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:23.715] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:23.738] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:23.748] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:23.758] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:23.769] [INFO] Paperbird - [/getAllPaperGsm/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:23.788] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][11:13:27 AM], All customer groups
+[2021-05-19T11:21:23.875] [INFO] Paperbird - [/getSinglePublishedProduct/:id, {"get":true}][11:13:27 AM], All products
+[2021-05-19T11:21:23.881] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][11:13:27 AM], All customer groups
+[2021-05-19T11:21:24.041] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:25.571] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:25.574] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:25.592] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:25.607] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:25.612] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:25.617] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:25.629] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:25.635] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:25.643] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:25.648] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][11:13:27 AM], All customer groups
+[2021-05-19T11:21:25.668] [INFO] Paperbird - [/getSupplier, {"post":true}][11:13:27 AM], Supplier Data
+[2021-05-19T11:21:25.770] [INFO] Paperbird - [/allProducts, {"post":true}][11:13:27 AM], All products
+[2021-05-19T11:21:27.712] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:27.714] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:27.743] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:27.749] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:27.759] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:27.767] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:27.774] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:27.781] [INFO] Paperbird - [/getAllPaperGsm/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:27.793] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][11:13:27 AM], All customer groups
+[2021-05-19T11:21:27.856] [INFO] Paperbird - [/getSinglePublishedProduct/:id, {"get":true}][11:13:27 AM], All products
+[2021-05-19T11:21:27.862] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][11:13:27 AM], All customer groups
+[2021-05-19T11:21:30.633] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:30.634] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:30.650] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:30.659] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:30.666] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:30.673] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:30.682] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:30.692] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:30.698] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:30.705] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][11:13:27 AM], All customer groups
+[2021-05-19T11:21:30.729] [INFO] Paperbird - [/getSupplier, {"post":true}][11:13:27 AM], Supplier Data
+[2021-05-19T11:21:30.831] [INFO] Paperbird - [/allProducts, {"post":true}][11:13:27 AM], All products
+[2021-05-19T11:21:34.347] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:34.349] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:34.382] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:34.389] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:34.397] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:34.405] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:34.411] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:34.418] [INFO] Paperbird - [/getAllPaperGsm/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:34.433] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][11:13:27 AM], All customer groups
+[2021-05-19T11:21:34.490] [INFO] Paperbird - [/getSinglePublishedProduct/:id, {"get":true}][11:13:27 AM], All products
+[2021-05-19T11:21:34.496] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][11:13:27 AM], All customer groups
+[2021-05-19T11:21:38.795] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:38.796] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:38.822] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:38.838] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:38.844] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:38.851] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:38.863] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:38.873] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:38.879] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:38.885] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][11:13:27 AM], All customer groups
+[2021-05-19T11:21:38.917] [INFO] Paperbird - [/getSupplier, {"post":true}][11:13:27 AM], Supplier Data
+[2021-05-19T11:21:39.042] [INFO] Paperbird - [/allProducts, {"post":true}][11:13:27 AM], All products
+[2021-05-19T11:21:45.695] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:45.701] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:45.746] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:45.753] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:45.764] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:45.772] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:45.780] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:45.790] [INFO] Paperbird - [/getAllPaperGsm/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:21:45.802] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][11:13:27 AM], All customer groups
+[2021-05-19T11:21:45.865] [INFO] Paperbird - [/getSinglePublishedProduct/:id, {"get":true}][11:13:27 AM], All products
+[2021-05-19T11:21:45.871] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][11:13:27 AM], All customer groups
+[2021-05-19T11:24:44.454] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:24:44.456] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:24:44.471] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:24:44.503] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:24:44.511] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:24:44.520] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:24:44.538] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:24:44.552] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:24:44.561] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:24:44.571] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][11:13:27 AM], All customer groups
+[2021-05-19T11:24:44.603] [INFO] Paperbird - [/getSupplier, {"post":true}][11:13:27 AM], Supplier Data
+[2021-05-19T11:24:44.723] [INFO] Paperbird - [/allProducts, {"post":true}][11:13:27 AM], All products
+[2021-05-19T11:29:48.201] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][11:13:27 AM], All dispatches
+[2021-05-19T11:29:48.225] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][11:13:27 AM], Purchase order of suppliers
+[2021-05-19T11:29:48.241] [INFO] Paperbird - [/getAll, {"get":true}][11:13:27 AM], All supplier warehouse
+[2021-05-19T11:29:48.677] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][11:13:27 AM], All dispatches
+[2021-05-19T11:29:51.390] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][11:13:27 AM], Purchase order of suppliers
+[2021-05-19T11:29:51.396] [INFO] Paperbird - [/getAll, {"get":true}][11:13:27 AM], All supplier warehouse
+[2021-05-19T11:29:56.789] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:29:56.791] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:29:56.842] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:29:56.849] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:29:56.862] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:29:56.870] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:29:56.877] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:29:56.888] [INFO] Paperbird - [/getAllPaperGsm/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:29:56.903] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][11:13:27 AM], All customer groups
+[2021-05-19T11:29:56.970] [INFO] Paperbird - [/getSinglePublishedProduct/:id, {"get":true}][11:13:27 AM], All products
+[2021-05-19T11:29:56.976] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][11:13:27 AM], All customer groups
+[2021-05-19T11:30:00.139] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:30:00.143] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:30:00.169] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:30:00.177] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:30:00.183] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:30:00.190] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:30:00.201] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:30:00.213] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:30:00.218] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:30:00.227] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][11:13:27 AM], All customer groups
+[2021-05-19T11:30:00.253] [INFO] Paperbird - [/getSupplier, {"post":true}][11:13:27 AM], Supplier Data
+[2021-05-19T11:30:00.351] [INFO] Paperbird - [/allProducts, {"post":true}][11:13:27 AM], All products
+[2021-05-19T11:30:01.897] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][11:13:27 AM], All dispatches
+[2021-05-19T11:30:01.904] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][11:13:27 AM], Purchase order of suppliers
+[2021-05-19T11:30:01.926] [INFO] Paperbird - [/getAll, {"get":true}][11:13:27 AM], All supplier warehouse
+[2021-05-19T11:30:02.376] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][11:13:27 AM], All dispatches
+[2021-05-19T11:31:34.211] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][11:13:27 AM], Purchase order of suppliers
+[2021-05-19T11:31:34.218] [INFO] Paperbird - [/getAll, {"get":true}][11:13:27 AM], All supplier warehouse
+[2021-05-19T11:31:35.066] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][11:13:27 AM], All dispatches
+[2021-05-19T11:31:35.076] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][11:13:27 AM], Purchase order of suppliers
+[2021-05-19T11:31:35.086] [INFO] Paperbird - [/getAll, {"get":true}][11:13:27 AM], All supplier warehouse
+[2021-05-19T11:31:35.557] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][11:13:27 AM], All dispatches
+[2021-05-19T11:31:36.353] [INFO] Paperbird - [/getSingleDispatchOrder/:id/:dispatchID, {"get":true}][11:13:27 AM], all order
+[2021-05-19T11:31:38.943] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][11:13:27 AM], All dispatches
+[2021-05-19T11:31:40.816] [INFO] Paperbird - [/getNotification, {"post":true}][11:13:27 AM], first five notifications
+[2021-05-19T11:31:45.647] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:31:45.649] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:31:45.690] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:31:45.697] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:31:45.710] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:31:45.720] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:31:45.727] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:31:45.737] [INFO] Paperbird - [/getAllPaperGsm/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:31:45.748] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][11:13:27 AM], All customer groups
+[2021-05-19T11:31:45.819] [INFO] Paperbird - [/getSinglePublishedProduct/:id, {"get":true}][11:13:27 AM], All products
+[2021-05-19T11:31:45.826] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][11:13:27 AM], All customer groups
+[2021-05-19T11:31:47.850] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:31:47.853] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:31:47.869] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:31:47.881] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:31:47.888] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:31:47.893] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:31:47.901] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:31:47.910] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:31:47.915] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][11:13:27 AM], All data
+[2021-05-19T11:31:47.925] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][11:13:27 AM], All customer groups
+[2021-05-19T11:31:47.946] [INFO] Paperbird - [/getSupplier, {"post":true}][11:13:27 AM], Supplier Data
+[2021-05-19T11:31:48.039] [INFO] Paperbird - [/allProducts, {"post":true}][11:13:27 AM], All products
+[2021-05-19T11:31:50.202] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][11:13:27 AM], Purchase order of suppliers
+[2021-05-19T11:31:50.209] [INFO] Paperbird - [/getAll, {"get":true}][11:13:27 AM], All supplier warehouse
+[2021-05-19T11:31:51.927] [INFO] Paperbird - [/getOrderDetail/:id/:type, {"get":true}][11:13:27 AM], Order Detail
+[2021-05-19T11:31:54.904] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][11:13:27 AM], All dispatches
+[2021-05-19T11:31:54.922] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][11:13:27 AM], Purchase order of suppliers
+[2021-05-19T11:31:54.927] [INFO] Paperbird - [/getAll, {"get":true}][11:13:27 AM], All supplier warehouse
+[2021-05-19T11:31:55.395] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][11:13:27 AM], All dispatches
+[2021-05-19T11:33:07.610] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][11:32:58 AM], Purchase order of suppliers
+[2021-05-19T11:33:07.625] [INFO] Paperbird - [/getAll, {"get":true}][11:32:58 AM], All supplier warehouse
+[2021-05-19T11:33:09.234] [INFO] Paperbird - [/getOrderDetail/:id/:type, {"get":true}][11:32:58 AM], Order Detail
+[2021-05-19T11:33:12.530] [INFO] Paperbird - [/updateOrder/:id, {"post":true}][11:32:58 AM], Purchase orders updated
+[2021-05-19T11:33:12.588] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][11:32:58 AM], Purchase order of suppliers
+[2021-05-19T11:33:12.605] [INFO] Paperbird - [/getAll, {"get":true}][11:32:58 AM], All supplier warehouse
+[2021-05-19T11:33:14.460] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][11:32:58 AM], All dispatches
+[2021-05-19T11:33:14.478] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][11:32:58 AM], Purchase order of suppliers
+[2021-05-19T11:33:14.491] [INFO] Paperbird - [/getAll, {"get":true}][11:32:58 AM], All supplier warehouse
+[2021-05-19T11:33:14.943] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][11:32:58 AM], All dispatches
+[2021-05-19T11:33:18.376] [INFO] Paperbird - [/getOrderDetail/:id/:type, {"get":true}][11:32:58 AM], Order Detail
+[2021-05-19T11:34:00.338] [INFO] Paperbird - [/newDispatch, {"post":true}][11:32:58 AM], Updated
+[2021-05-19T11:34:00.877] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][11:32:58 AM], All dispatches
+[2021-05-19T11:34:02.623] [INFO] Paperbird - [/getSingleDispatchOrder/:id/:dispatchID, {"get":true}][11:32:58 AM], all order
+[2021-05-19T11:34:08.472] [INFO] Paperbird - [/updateDispatchOrder/:id, {"post":true}][11:32:58 AM], Updated
+[2021-05-19T11:34:08.536] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][11:32:58 AM], All dispatches
+[2021-05-19T11:34:09.034] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][11:32:58 AM], All dispatches
+[2021-05-19T11:34:42.408] [INFO] Paperbird - [/getSingleDispatchOrder/:id/:dispatchID, {"get":true}][11:34:39 AM], all order
+[2021-05-19T11:34:52.619] [ERROR] Paperbird - [/updateDispatchOrder/:id, {"post":true}][11:34:39 AM], ReferenceError: asda is not defined
+[2021-05-19T12:07:58.901] [INFO] Paperbird - [/getAll, {"post":true}][11:35:03 AM], All orders
+[2021-05-19T12:07:59.369] [INFO] Paperbird - [/getAll, {"post":true}][11:35:03 AM], All orders
+[2021-05-19T12:08:00.957] [INFO] Paperbird - [/singleOrderDetail/:poID, {"get":true}][11:35:03 AM], Single order details
+[2021-05-19T12:08:06.265] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][11:35:03 AM], All dispatches
+[2021-05-19T12:08:06.285] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][11:35:03 AM], Purchase order of suppliers
+[2021-05-19T12:08:06.308] [INFO] Paperbird - [/getAll, {"get":true}][11:35:03 AM], All supplier warehouse
+[2021-05-19T12:08:06.737] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][11:35:03 AM], All dispatches
+[2021-05-19T12:10:49.493] [INFO] Paperbird - [/getSingleDispatchOrder/:id/:dispatchID, {"get":true}][12:10:47 PM], all order
+[2021-05-19T12:10:51.676] [INFO] Paperbird - [/confirmDispatch/:id, {"post":true}][12:10:47 PM], Updated
+[2021-05-19T12:10:51.731] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][12:10:47 PM], All dispatches
+[2021-05-19T12:10:52.216] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][12:10:47 PM], All dispatches
+[2021-05-19T12:14:22.634] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][12:14:18 PM], All dispatches
+[2021-05-19T12:14:22.639] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][12:14:18 PM], Purchase order of suppliers
+[2021-05-19T12:14:22.650] [INFO] Paperbird - [/getAll, {"get":true}][12:14:18 PM], All supplier warehouse
+[2021-05-19T12:14:23.081] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][12:14:18 PM], All dispatches
+[2021-05-19T12:14:29.318] [INFO] Paperbird - [/getAll, {"post":true}][12:14:18 PM], All orders
+[2021-05-19T12:14:29.809] [INFO] Paperbird - [/getAll, {"post":true}][12:14:18 PM], All orders
+[2021-05-19T13:58:56.382] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][1:52:12 PM], All data
+[2021-05-19T13:58:56.386] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][1:52:12 PM], All data
+[2021-05-19T13:58:56.492] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][1:52:12 PM], All data
+[2021-05-19T13:58:56.540] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][1:52:12 PM], All data
+[2021-05-19T13:58:56.559] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][1:52:12 PM], All data
+[2021-05-19T13:58:56.573] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][1:52:12 PM], All data
+[2021-05-19T13:58:56.600] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][1:52:12 PM], All data
+[2021-05-19T13:58:56.624] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][1:52:12 PM], All data
+[2021-05-19T13:58:56.639] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][1:52:12 PM], All data
+[2021-05-19T14:35:14.903] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:34:45 PM], All data
+[2021-05-19T14:35:14.910] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:34:45 PM], All data
+[2021-05-19T14:35:14.954] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][2:34:45 PM], All data
+[2021-05-19T14:35:14.967] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][2:34:45 PM], All data
+[2021-05-19T14:35:14.980] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][2:34:45 PM], All data
+[2021-05-19T14:35:15.016] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][2:34:45 PM], All data
+[2021-05-19T14:35:15.038] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][2:34:45 PM], All data
+[2021-05-19T14:35:15.068] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][2:34:45 PM], All data
+[2021-05-19T14:35:15.077] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][2:34:45 PM], All data
+[2021-05-19T14:35:15.122] [INFO] Paperbird - [/getSupplier, {"post":true}][2:34:45 PM], Supplier Data
+[2021-05-19T14:35:15.292] [INFO] Paperbird - [/allProducts, {"post":true}][2:34:45 PM], All products
+[2021-05-19T14:53:36.114] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:36.123] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:36.147] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:36.179] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:36.194] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:36.207] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:36.227] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:36.241] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:36.252] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:36.300] [INFO] Paperbird - [/getSupplier, {"post":true}][2:44:54 PM], Supplier Data
+[2021-05-19T14:53:36.468] [INFO] Paperbird - [/allProducts, {"post":true}][2:44:54 PM], All products
+[2021-05-19T14:53:38.831] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:38.833] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:38.850] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:38.865] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:38.894] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:38.903] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:38.916] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:38.928] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:38.934] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:38.951] [INFO] Paperbird - [/getSupplier, {"post":true}][2:44:54 PM], Supplier Data
+[2021-05-19T14:53:39.116] [INFO] Paperbird - [/allProducts, {"post":true}][2:44:54 PM], All products
+[2021-05-19T14:53:41.992] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:41.994] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:42.032] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:42.061] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:42.076] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:42.086] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:42.097] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:42.110] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:42.118] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:42.130] [INFO] Paperbird - [/getSupplier, {"post":true}][2:44:54 PM], Supplier Data
+[2021-05-19T14:53:42.240] [INFO] Paperbird - [/allProducts, {"post":true}][2:44:54 PM], All products
+[2021-05-19T14:53:45.110] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:45.115] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:45.139] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:45.146] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:45.155] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:45.161] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:45.171] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:45.214] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:45.224] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:45.233] [INFO] Paperbird - [/getSupplier, {"post":true}][2:44:54 PM], Supplier Data
+[2021-05-19T14:53:45.346] [INFO] Paperbird - [/allProducts, {"post":true}][2:44:54 PM], All products
+[2021-05-19T14:53:47.552] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:47.557] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:47.574] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:47.582] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:47.610] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:47.618] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:47.628] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:47.636] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:47.644] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:47.663] [INFO] Paperbird - [/getSupplier, {"post":true}][2:44:54 PM], Supplier Data
+[2021-05-19T14:53:47.900] [INFO] Paperbird - [/allProducts, {"post":true}][2:44:54 PM], All products
+[2021-05-19T14:53:50.213] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:50.215] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:50.235] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:50.262] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:50.268] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:50.274] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:50.282] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:50.291] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:50.297] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:50.322] [INFO] Paperbird - [/getSupplier, {"post":true}][2:44:54 PM], Supplier Data
+[2021-05-19T14:53:50.407] [INFO] Paperbird - [/allProducts, {"post":true}][2:44:54 PM], All products
+[2021-05-19T14:53:53.117] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:53.118] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:53.160] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:53.173] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:53.203] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:53.226] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:53.242] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:53.256] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:53.264] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:53.275] [INFO] Paperbird - [/getSupplier, {"post":true}][2:44:54 PM], Supplier Data
+[2021-05-19T14:53:53.363] [INFO] Paperbird - [/allProducts, {"post":true}][2:44:54 PM], All products
+[2021-05-19T14:53:55.540] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:55.542] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:55.570] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:55.607] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:55.618] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:55.633] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:55.644] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:55.658] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:55.671] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:55.681] [INFO] Paperbird - [/getSupplier, {"post":true}][2:44:54 PM], Supplier Data
+[2021-05-19T14:53:55.785] [INFO] Paperbird - [/allProducts, {"post":true}][2:44:54 PM], All products
+[2021-05-19T14:53:58.823] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:58.824] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:58.852] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:58.889] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:58.896] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:58.905] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:58.915] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:58.926] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:58.932] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:53:58.944] [INFO] Paperbird - [/getSupplier, {"post":true}][2:44:54 PM], Supplier Data
+[2021-05-19T14:53:59.029] [INFO] Paperbird - [/allProducts, {"post":true}][2:44:54 PM], All products
+[2021-05-19T14:54:17.390] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:54:17.392] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:54:17.410] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:54:17.427] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:54:17.462] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:54:17.471] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:54:17.482] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:54:17.492] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:54:17.499] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:54:17.508] [INFO] Paperbird - [/getSupplier, {"post":true}][2:44:54 PM], Supplier Data
+[2021-05-19T14:54:17.598] [INFO] Paperbird - [/allProducts, {"post":true}][2:44:54 PM], All products
+[2021-05-19T14:54:24.671] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:54:24.673] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:54:24.693] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:54:24.722] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:54:24.729] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:54:24.738] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:54:24.749] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:54:24.756] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:54:24.763] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:54:24.773] [INFO] Paperbird - [/getSupplier, {"post":true}][2:44:54 PM], Supplier Data
+[2021-05-19T14:54:24.855] [INFO] Paperbird - [/allProducts, {"post":true}][2:44:54 PM], All products
+[2021-05-19T14:57:16.327] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:16.328] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:16.357] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:16.365] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:16.418] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:16.424] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:16.438] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:16.450] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:16.456] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:16.469] [INFO] Paperbird - [/getSupplier, {"post":true}][2:44:54 PM], Supplier Data
+[2021-05-19T14:57:16.565] [INFO] Paperbird - [/allProducts, {"post":true}][2:44:54 PM], All products
+[2021-05-19T14:57:25.649] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:25.650] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:25.673] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:25.689] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:25.722] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:25.759] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:25.778] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:25.800] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:25.809] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:25.818] [INFO] Paperbird - [/getSupplier, {"post":true}][2:44:54 PM], Supplier Data
+[2021-05-19T14:57:25.925] [INFO] Paperbird - [/allProducts, {"post":true}][2:44:54 PM], All products
+[2021-05-19T14:57:46.139] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:46.141] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:46.172] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:46.181] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:46.220] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:46.229] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:46.259] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:46.306] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:46.328] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:46.341] [INFO] Paperbird - [/getSupplier, {"post":true}][2:44:54 PM], Supplier Data
+[2021-05-19T14:57:46.440] [INFO] Paperbird - [/allProducts, {"post":true}][2:44:54 PM], All products
+[2021-05-19T14:57:48.898] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:48.900] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:48.924] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:48.933] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:48.942] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:48.968] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:48.976] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:48.983] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:48.989] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:49.010] [INFO] Paperbird - [/getSupplier, {"post":true}][2:44:54 PM], Supplier Data
+[2021-05-19T14:57:49.112] [INFO] Paperbird - [/allProducts, {"post":true}][2:44:54 PM], All products
+[2021-05-19T14:57:52.199] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:52.201] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:52.220] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:52.251] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:52.258] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:52.266] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:52.275] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:52.282] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:52.288] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:57:52.298] [INFO] Paperbird - [/getSupplier, {"post":true}][2:44:54 PM], Supplier Data
+[2021-05-19T14:57:52.383] [INFO] Paperbird - [/allProducts, {"post":true}][2:44:54 PM], All products
+[2021-05-19T14:58:32.091] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:32.093] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:32.110] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:32.118] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:32.141] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:32.147] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:32.158] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:32.170] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:32.176] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:32.188] [INFO] Paperbird - [/getSupplier, {"post":true}][2:44:54 PM], Supplier Data
+[2021-05-19T14:58:32.309] [INFO] Paperbird - [/allProducts, {"post":true}][2:44:54 PM], All products
+[2021-05-19T14:58:37.716] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:37.717] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:37.745] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:37.761] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:37.797] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:37.805] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:37.814] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:37.823] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:37.836] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:37.857] [INFO] Paperbird - [/getSupplier, {"post":true}][2:44:54 PM], Supplier Data
+[2021-05-19T14:58:37.949] [INFO] Paperbird - [/allProducts, {"post":true}][2:44:54 PM], All products
+[2021-05-19T14:58:42.167] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:42.168] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:42.174] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:42.208] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:42.214] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:42.221] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:42.230] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:42.260] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:42.265] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:42.272] [INFO] Paperbird - [/getSupplier, {"post":true}][2:44:54 PM], Supplier Data
+[2021-05-19T14:58:42.394] [INFO] Paperbird - [/allProducts, {"post":true}][2:44:54 PM], All products
+[2021-05-19T14:58:49.580] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:49.581] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:49.603] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:49.615] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:49.656] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:49.664] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:49.677] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:49.686] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:49.692] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:49.706] [INFO] Paperbird - [/getSupplier, {"post":true}][2:44:54 PM], Supplier Data
+[2021-05-19T14:58:49.803] [INFO] Paperbird - [/allProducts, {"post":true}][2:44:54 PM], All products
+[2021-05-19T14:58:52.438] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:52.439] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:52.461] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:52.475] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:52.514] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:52.520] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:52.528] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:52.536] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:52.540] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:52.546] [INFO] Paperbird - [/getSupplier, {"post":true}][2:44:54 PM], Supplier Data
+[2021-05-19T14:58:52.635] [INFO] Paperbird - [/allProducts, {"post":true}][2:44:54 PM], All products
+[2021-05-19T14:58:57.510] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:57.512] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:57.526] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:57.541] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:57.575] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:57.581] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:57.590] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:57.598] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:57.605] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T14:58:57.613] [INFO] Paperbird - [/getSupplier, {"post":true}][2:44:54 PM], Supplier Data
+[2021-05-19T14:58:57.701] [INFO] Paperbird - [/allProducts, {"post":true}][2:44:54 PM], All products
+[2021-05-19T15:35:15.330] [INFO] Paperbird - [/customer, {"post":true}][2:44:54 PM], Customer Login Successfull
+[2021-05-19T15:35:17.490] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T15:35:23.281] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:44:54 PM], All data
+[2021-05-19T15:35:23.305] [INFO] Paperbird - [/getCustomerInquiries, {"post":true}][2:44:54 PM], All inquiries of the customer
+[2021-05-19T15:35:23.346] [INFO] Paperbird - [/getSingleCustomerInquiry, {"post":true}][2:44:54 PM], inquiry Detail
+[2021-05-19T15:35:23.349] [INFO] Paperbird - [/getSingleCustomerInquiry, {"post":true}][2:44:54 PM], inquiry Detail
+[2021-05-19T15:36:32.302] [INFO] Paperbird - [/addCart, {"post":true}][2:44:54 PM], Customer Login Successfull
+[2021-05-19T15:49:31.602] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T15:49:31.619] [INFO] Paperbird - [/getCustomerInquiries, {"post":true}][3:41:47 PM], All inquiries of the customer
+[2021-05-19T15:49:31.756] [INFO] Paperbird - [/getSingleCustomerInquiry, {"post":true}][3:41:47 PM], inquiry Detail
+[2021-05-19T15:49:31.768] [INFO] Paperbird - [/getSingleCustomerInquiry, {"post":true}][3:41:47 PM], inquiry Detail
+[2021-05-19T15:49:49.735] [INFO] Paperbird - [/addCart, {"post":true}][3:41:47 PM], Customer Login Successfull
+[2021-05-19T15:51:01.740] [INFO] Paperbird - [/addCart, {"post":true}][3:41:47 PM], Customer Login Successfull
+[2021-05-19T15:51:25.919] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T15:51:25.938] [INFO] Paperbird - [/getCustomerInquiries, {"post":true}][3:41:47 PM], All inquiries of the customer
+[2021-05-19T15:51:26.084] [INFO] Paperbird - [/getSingleCustomerInquiry, {"post":true}][3:41:47 PM], inquiry Detail
+[2021-05-19T15:51:26.092] [INFO] Paperbird - [/getSingleCustomerInquiry, {"post":true}][3:41:47 PM], inquiry Detail
+[2021-05-19T15:51:39.858] [INFO] Paperbird - [/getCart, {"get":true}][3:41:47 PM], User Cart
+[2021-05-19T15:51:40.114] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T15:51:40.161] [INFO] Paperbird - [/countries, {"get":true}][3:41:47 PM], All countries
+[2021-05-19T15:51:40.166] [INFO] Paperbird - [/states/:id, {"get":true}][3:41:47 PM], All States
+[2021-05-19T15:51:40.172] [INFO] Paperbird - [/cities/:state_id/:country_id, {"get":true}][3:41:47 PM], All Cities
+[2021-05-19T15:51:42.352] [INFO] Paperbird - [/removeCart/:id, {"get":true}][3:41:47 PM], Product removed successfully
+[2021-05-19T15:51:45.399] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T15:51:45.431] [INFO] Paperbird - [/getCustomerInquiries, {"post":true}][3:41:47 PM], All inquiries of the customer
+[2021-05-19T15:51:45.469] [INFO] Paperbird - [/getSingleCustomerInquiry, {"post":true}][3:41:47 PM], inquiry Detail
+[2021-05-19T15:51:45.475] [INFO] Paperbird - [/getSingleCustomerInquiry, {"post":true}][3:41:47 PM], inquiry Detail
+[2021-05-19T15:51:50.039] [INFO] Paperbird - [/addCart, {"post":true}][3:41:47 PM], Customer Login Successfull
+[2021-05-19T15:51:55.193] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T15:51:55.212] [INFO] Paperbird - [/countries, {"get":true}][3:41:47 PM], All countries
+[2021-05-19T15:51:55.219] [INFO] Paperbird - [/getCart, {"get":true}][3:41:47 PM], User Cart
+[2021-05-19T15:51:55.222] [INFO] Paperbird - [/states/:id, {"get":true}][3:41:47 PM], All States
+[2021-05-19T15:51:55.224] [INFO] Paperbird - [/cities/:state_id/:country_id, {"get":true}][3:41:47 PM], All Cities
+[2021-05-19T15:51:58.535] [INFO] Paperbird - [/addCart, {"post":true}][3:41:47 PM], Customer Login Successfull
+[2021-05-19T15:52:23.263] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T15:52:23.266] [INFO] Paperbird - [/countries, {"get":true}][3:41:47 PM], All countries
+[2021-05-19T15:52:23.275] [INFO] Paperbird - [/states/:id, {"get":true}][3:41:47 PM], All States
+[2021-05-19T15:52:23.284] [INFO] Paperbird - [/cities/:state_id/:country_id, {"get":true}][3:41:47 PM], All Cities
+[2021-05-19T15:52:23.287] [INFO] Paperbird - [/getCart, {"get":true}][3:41:47 PM], User Cart
+[2021-05-19T15:52:25.083] [INFO] Paperbird - [/states/:id, {"get":true}][3:41:47 PM], All States
+[2021-05-19T15:52:25.084] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T15:52:25.085] [INFO] Paperbird - [/countries, {"get":true}][3:41:47 PM], All countries
+[2021-05-19T15:52:25.097] [INFO] Paperbird - [/getCart, {"get":true}][3:41:47 PM], User Cart
+[2021-05-19T15:52:25.109] [INFO] Paperbird - [/cities/:state_id/:country_id, {"get":true}][3:41:47 PM], All Cities
+[2021-05-19T15:52:31.040] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T15:52:31.051] [INFO] Paperbird - [/countries, {"get":true}][3:41:47 PM], All countries
+[2021-05-19T15:52:31.056] [INFO] Paperbird - [/states/:id, {"get":true}][3:41:47 PM], All States
+[2021-05-19T15:52:31.072] [INFO] Paperbird - [/cities/:state_id/:country_id, {"get":true}][3:41:47 PM], All Cities
+[2021-05-19T15:52:31.073] [INFO] Paperbird - [/getCart, {"get":true}][3:41:47 PM], User Cart
+[2021-05-19T15:52:34.439] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T15:52:34.465] [INFO] Paperbird - [/getCustomerInquiries, {"post":true}][3:41:47 PM], All inquiries of the customer
+[2021-05-19T15:52:34.512] [INFO] Paperbird - [/getSingleCustomerInquiry, {"post":true}][3:41:47 PM], inquiry Detail
+[2021-05-19T15:52:34.522] [INFO] Paperbird - [/getSingleCustomerInquiry, {"post":true}][3:41:47 PM], inquiry Detail
+[2021-05-19T15:52:41.346] [INFO] Paperbird - [/addCart, {"post":true}][3:41:47 PM], Customer Login Successfull
+[2021-05-19T15:52:47.946] [INFO] Paperbird - [/countries, {"get":true}][3:41:47 PM], All countries
+[2021-05-19T15:52:47.948] [INFO] Paperbird - [/states/:id, {"get":true}][3:41:47 PM], All States
+[2021-05-19T15:52:47.961] [INFO] Paperbird - [/cities/:state_id/:country_id, {"get":true}][3:41:47 PM], All Cities
+[2021-05-19T15:52:47.970] [INFO] Paperbird - [/getCart, {"get":true}][3:41:47 PM], User Cart
+[2021-05-19T15:52:47.985] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T15:53:15.565] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T15:53:15.573] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T15:53:15.631] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T15:53:15.691] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T15:53:15.713] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T15:53:15.730] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T15:53:15.758] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T15:53:15.771] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T15:53:15.782] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T15:53:15.796] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][3:41:47 PM], All customer groups
+[2021-05-19T15:53:15.832] [INFO] Paperbird - [/getSupplier, {"post":true}][3:41:47 PM], Supplier Data
+[2021-05-19T15:53:15.983] [INFO] Paperbird - [/allProducts, {"post":true}][3:41:47 PM], All products
+[2021-05-19T15:53:22.896] [INFO] Paperbird - [/addCart, {"post":true}][3:41:47 PM], Customer Login Successfull
+[2021-05-19T15:53:25.988] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T15:53:25.998] [INFO] Paperbird - [/countries, {"get":true}][3:41:47 PM], All countries
+[2021-05-19T15:53:26.009] [INFO] Paperbird - [/states/:id, {"get":true}][3:41:47 PM], All States
+[2021-05-19T15:53:26.012] [INFO] Paperbird - [/cities/:state_id/:country_id, {"get":true}][3:41:47 PM], All Cities
+[2021-05-19T15:53:26.020] [INFO] Paperbird - [/getCart, {"get":true}][3:41:47 PM], User Cart
+[2021-05-19T16:00:29.777] [INFO] Paperbird - [/getCart, {"get":true}][3:41:47 PM], User Cart
+[2021-05-19T16:00:29.834] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T16:00:29.838] [INFO] Paperbird - [/countries, {"get":true}][3:41:47 PM], All countries
+[2021-05-19T16:00:29.843] [INFO] Paperbird - [/states/:id, {"get":true}][3:41:47 PM], All States
+[2021-05-19T16:00:29.844] [INFO] Paperbird - [/cities/:state_id/:country_id, {"get":true}][3:41:47 PM], All Cities
+[2021-05-19T16:00:31.027] [INFO] Paperbird - [/removeCart/:id, {"get":true}][3:41:47 PM], Product removed successfully
+[2021-05-19T16:00:31.028] [INFO] Paperbird - [/removeCart/:id, {"get":true}][3:41:47 PM], Product removed successfully
+[2021-05-19T16:00:31.549] [INFO] Paperbird - [/removeCart/:id, {"get":true}][3:41:47 PM], Product removed successfully
+[2021-05-19T16:00:32.544] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T16:00:32.546] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T16:00:32.579] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T16:00:32.590] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T16:00:32.599] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T16:00:32.606] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T16:00:32.625] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T16:00:32.637] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T16:00:32.645] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T16:00:32.651] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][3:41:47 PM], All customer groups
+[2021-05-19T16:00:32.686] [INFO] Paperbird - [/getSupplier, {"post":true}][3:41:47 PM], Supplier Data
+[2021-05-19T16:00:32.801] [INFO] Paperbird - [/allProducts, {"post":true}][3:41:47 PM], All products
+[2021-05-19T16:00:51.808] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T16:00:51.821] [INFO] Paperbird - [/countries, {"get":true}][3:41:47 PM], All countries
+[2021-05-19T16:00:51.829] [INFO] Paperbird - [/states/:id, {"get":true}][3:41:47 PM], All States
+[2021-05-19T16:00:51.831] [INFO] Paperbird - [/cities/:state_id/:country_id, {"get":true}][3:41:47 PM], All Cities
+[2021-05-19T16:00:51.836] [INFO] Paperbird - [/getCart, {"get":true}][3:41:47 PM], User Cart
+[2021-05-19T16:00:54.096] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T16:00:54.102] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T16:00:54.145] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T16:00:54.156] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T16:00:54.169] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T16:00:54.181] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T16:00:54.197] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T16:00:54.211] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T16:00:54.221] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T16:00:54.230] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][3:41:47 PM], All customer groups
+[2021-05-19T16:00:54.269] [INFO] Paperbird - [/getSupplier, {"post":true}][3:41:47 PM], Supplier Data
+[2021-05-19T16:00:54.385] [INFO] Paperbird - [/allProducts, {"post":true}][3:41:47 PM], All products
+[2021-05-19T16:00:56.246] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T16:00:56.250] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T16:00:56.494] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T16:00:56.569] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T16:00:56.611] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T16:00:56.698] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T16:00:56.785] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T16:00:56.862] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T16:00:56.932] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T16:00:57.009] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][3:41:47 PM], All customer groups
+[2021-05-19T16:00:57.129] [INFO] Paperbird - [/getSupplier, {"post":true}][3:41:47 PM], Supplier Data
+[2021-05-19T16:00:57.272] [INFO] Paperbird - [/allProducts, {"post":true}][3:41:47 PM], All products
+[2021-05-19T16:01:20.314] [INFO] Paperbird - [/addCart, {"post":true}][3:41:47 PM], Customer Login Successfull
+[2021-05-19T16:01:23.559] [INFO] Paperbird - [/getCart, {"get":true}][3:41:47 PM], User Cart
+[2021-05-19T16:01:23.787] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][3:41:47 PM], All data
+[2021-05-19T16:01:23.851] [INFO] Paperbird - [/countries, {"get":true}][3:41:47 PM], All countries
+[2021-05-19T16:01:23.854] [INFO] Paperbird - [/states/:id, {"get":true}][3:41:47 PM], All States
+[2021-05-19T16:01:23.860] [INFO] Paperbird - [/cities/:state_id/:country_id, {"get":true}][3:41:47 PM], All Cities
+[2021-05-19T16:19:25.543] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][4:11:07 PM], All data
+[2021-05-19T16:20:45.516] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][4:11:07 PM], All data
+[2021-05-19T16:20:45.520] [INFO] Paperbird - [/countries, {"get":true}][4:11:07 PM], All countries
+[2021-05-19T16:20:45.526] [INFO] Paperbird - [/states/:id, {"get":true}][4:11:07 PM], All States
+[2021-05-19T16:20:45.539] [INFO] Paperbird - [/getCart, {"get":true}][4:11:07 PM], User Cart
+[2021-05-19T16:20:45.544] [INFO] Paperbird - [/cities/:state_id/:country_id, {"get":true}][4:11:07 PM], All Cities
+[2021-05-19T16:22:35.021] [INFO] Paperbird - [/getAll, {"get":true}][4:11:07 PM], All addresses
+[2021-05-19T16:22:39.139] [INFO] Paperbird - [/newOrder, {"post":true}][4:11:07 PM], Order created successfully
+[2021-05-19T16:22:39.230] [INFO] Paperbird - [/removeCart/:id, {"get":true}][4:11:07 PM], Product removed successfully
+[2021-05-19T17:18:10.488] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:18:10.492] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:18:10.624] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:18:10.669] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:18:10.685] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:18:10.706] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:18:10.742] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:18:10.761] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:18:10.775] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:18:10.787] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][5:15:12 PM], All customer groups
+[2021-05-19T17:18:10.850] [INFO] Paperbird - [/getSupplier, {"post":true}][5:15:12 PM], Supplier Data
+[2021-05-19T17:18:11.057] [INFO] Paperbird - [/allProducts, {"post":true}][5:15:12 PM], All products
+[2021-05-19T17:19:55.126] [INFO] Paperbird - [/addCart, {"post":true}][5:15:12 PM], Customer Login Successfull
+[2021-05-19T17:20:00.118] [INFO] Paperbird - [/getCart, {"get":true}][5:15:12 PM], User Cart
+[2021-05-19T17:20:00.263] [INFO] Paperbird - [/countries, {"get":true}][5:15:12 PM], All countries
+[2021-05-19T17:20:00.267] [INFO] Paperbird - [/states/:id, {"get":true}][5:15:12 PM], All States
+[2021-05-19T17:20:00.267] [INFO] Paperbird - [/cities/:state_id/:country_id, {"get":true}][5:15:12 PM], All Cities
+[2021-05-19T17:20:00.327] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:20:07.561] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:20:07.563] [INFO] Paperbird - [/countries, {"get":true}][5:15:12 PM], All countries
+[2021-05-19T17:20:07.565] [INFO] Paperbird - [/states/:id, {"get":true}][5:15:12 PM], All States
+[2021-05-19T17:20:07.566] [INFO] Paperbird - [/cities/:state_id/:country_id, {"get":true}][5:15:12 PM], All Cities
+[2021-05-19T17:20:07.567] [INFO] Paperbird - [/getCart, {"get":true}][5:15:12 PM], User Cart
+[2021-05-19T17:20:11.028] [INFO] Paperbird - [/addCart, {"post":true}][5:15:12 PM], Customer Login Successfull
+[2021-05-19T17:20:14.567] [INFO] Paperbird - [/getAll, {"get":true}][5:15:12 PM], All addresses
+[2021-05-19T17:20:19.302] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:20:19.308] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:20:19.361] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:20:19.423] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:20:19.435] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:20:19.450] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:20:19.473] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:20:19.483] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:20:19.493] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:20:19.498] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][5:15:12 PM], All customer groups
+[2021-05-19T17:20:19.537] [INFO] Paperbird - [/getSupplier, {"post":true}][5:15:12 PM], Supplier Data
+[2021-05-19T17:20:19.657] [INFO] Paperbird - [/allProducts, {"post":true}][5:15:12 PM], All products
+[2021-05-19T17:20:23.340] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:20:23.347] [INFO] Paperbird - [/countries, {"get":true}][5:15:12 PM], All countries
+[2021-05-19T17:20:23.350] [INFO] Paperbird - [/states/:id, {"get":true}][5:15:12 PM], All States
+[2021-05-19T17:20:23.351] [INFO] Paperbird - [/getCart, {"get":true}][5:15:12 PM], User Cart
+[2021-05-19T17:20:23.353] [INFO] Paperbird - [/cities/:state_id/:country_id, {"get":true}][5:15:12 PM], All Cities
+[2021-05-19T17:20:30.796] [INFO] Paperbird - [/removeCart/:id, {"get":true}][5:15:12 PM], Product removed successfully
+[2021-05-19T17:20:36.731] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:20:36.755] [INFO] Paperbird - [/getCustomerInquiries, {"post":true}][5:15:12 PM], All inquiries of the customer
+[2021-05-19T17:20:36.802] [INFO] Paperbird - [/getSingleCustomerInquiry, {"post":true}][5:15:12 PM], inquiry Detail
+[2021-05-19T17:20:36.810] [INFO] Paperbird - [/getSingleCustomerInquiry, {"post":true}][5:15:12 PM], inquiry Detail
+[2021-05-19T17:20:55.416] [INFO] Paperbird - [/addCart, {"post":true}][5:15:12 PM], Customer Login Successfull
+[2021-05-19T17:21:35.882] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:21:35.898] [INFO] Paperbird - [/countries, {"get":true}][5:15:12 PM], All countries
+[2021-05-19T17:21:35.903] [INFO] Paperbird - [/states/:id, {"get":true}][5:15:12 PM], All States
+[2021-05-19T17:21:35.906] [INFO] Paperbird - [/cities/:state_id/:country_id, {"get":true}][5:15:12 PM], All Cities
+[2021-05-19T17:21:35.924] [INFO] Paperbird - [/getCart, {"get":true}][5:15:12 PM], User Cart
+[2021-05-19T17:21:53.841] [INFO] Paperbird - [/addCart, {"post":true}][5:15:12 PM], Customer Login Successfull
+[2021-05-19T17:21:54.591] [INFO] Paperbird - [/getAll, {"get":true}][5:15:12 PM], All addresses
+[2021-05-19T17:21:56.277] [INFO] Paperbird - [/newOrder, {"post":true}][5:15:12 PM], Order created successfully
+[2021-05-19T17:21:56.342] [INFO] Paperbird - [/removeCart/:id, {"get":true}][5:15:12 PM], Product removed successfully
+[2021-05-19T17:21:57.738] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:21:57.739] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:21:57.781] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:21:57.826] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:21:57.881] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:21:57.892] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:21:57.912] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:21:57.927] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:21:57.938] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:21:57.949] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][5:15:12 PM], All customer groups
+[2021-05-19T17:21:57.986] [INFO] Paperbird - [/getSupplier, {"post":true}][5:15:12 PM], Supplier Data
+[2021-05-19T17:21:58.109] [INFO] Paperbird - [/allProducts, {"post":true}][5:15:12 PM], All products
+[2021-05-19T17:22:12.521] [INFO] Paperbird - [/getNotification, {"post":true}][5:15:12 PM], first five notifications
+[2021-05-19T17:22:13.410] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][5:15:12 PM], Purchase order of suppliers
+[2021-05-19T17:22:13.424] [INFO] Paperbird - [/getAll, {"get":true}][5:15:12 PM], All supplier warehouse
+[2021-05-19T17:22:24.940] [INFO] Paperbird - [/getAll, {"post":true}][5:15:12 PM], All orders
+[2021-05-19T17:22:25.452] [INFO] Paperbird - [/getAll, {"post":true}][5:15:12 PM], All orders
+[2021-05-19T17:22:26.573] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][5:15:12 PM], All dispatches
+[2021-05-19T17:22:26.574] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][5:15:12 PM], Purchase order of suppliers
+[2021-05-19T17:22:26.584] [INFO] Paperbird - [/getAll, {"get":true}][5:15:12 PM], All supplier warehouse
+[2021-05-19T17:22:27.054] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][5:15:12 PM], All dispatches
+[2021-05-19T17:22:27.726] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][5:15:12 PM], Purchase order of suppliers
+[2021-05-19T17:22:27.733] [INFO] Paperbird - [/getAll, {"get":true}][5:15:12 PM], All supplier warehouse
+[2021-05-19T17:22:29.141] [INFO] Paperbird - [/getAll, {"post":true}][5:15:12 PM], All orders
+[2021-05-19T17:22:29.654] [INFO] Paperbird - [/getAll, {"post":true}][5:15:12 PM], All orders
+[2021-05-19T17:22:30.128] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][5:15:12 PM], Purchase order of suppliers
+[2021-05-19T17:22:30.135] [INFO] Paperbird - [/getAll, {"get":true}][5:15:12 PM], All supplier warehouse
+[2021-05-19T17:22:41.735] [INFO] Paperbird - [/getOrderDetail/:id/:type, {"get":true}][5:15:12 PM], Order Detail
+[2021-05-19T17:22:46.285] [INFO] Paperbird - [/updateOrder/:id, {"post":true}][5:15:12 PM], Purchase orders updated
+[2021-05-19T17:22:46.330] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][5:15:12 PM], Purchase order of suppliers
+[2021-05-19T17:22:46.339] [INFO] Paperbird - [/getAll, {"get":true}][5:15:12 PM], All supplier warehouse
+[2021-05-19T17:22:49.237] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][5:15:12 PM], All dispatches
+[2021-05-19T17:22:49.246] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][5:15:12 PM], Purchase order of suppliers
+[2021-05-19T17:22:49.253] [INFO] Paperbird - [/getAll, {"get":true}][5:15:12 PM], All supplier warehouse
+[2021-05-19T17:22:49.747] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][5:15:12 PM], All dispatches
+[2021-05-19T17:22:52.679] [INFO] Paperbird - [/getOrderDetail/:id/:type, {"get":true}][5:15:12 PM], Order Detail
+[2021-05-19T17:23:02.782] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][5:15:12 PM], Purchase order of suppliers
+[2021-05-19T17:23:02.790] [INFO] Paperbird - [/getAll, {"get":true}][5:15:12 PM], All supplier warehouse
+[2021-05-19T17:23:05.250] [INFO] Paperbird - [/getOrderDetail/:id/:type, {"get":true}][5:15:12 PM], Order Detail
+[2021-05-19T17:23:06.957] [INFO] Paperbird - [/productStock/:id, {"get":true}][5:15:12 PM], Warehouse stock
+[2021-05-19T17:23:12.786] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][5:15:12 PM], Purchase order of suppliers
+[2021-05-19T17:23:12.809] [INFO] Paperbird - [/getAll, {"get":true}][5:15:12 PM], All supplier warehouse
+[2021-05-19T17:23:14.531] [INFO] Paperbird - [/getOrderDetail/:id/:type, {"get":true}][5:15:12 PM], Order Detail
+[2021-05-19T17:23:15.634] [INFO] Paperbird - [/productStock/:id, {"get":true}][5:15:12 PM], Warehouse stock
+[2021-05-19T17:23:16.673] [INFO] Paperbird - [/productStock/:id, {"get":true}][5:15:12 PM], Warehouse stock
+[2021-05-19T17:23:17.598] [INFO] Paperbird - [/productStock/:id, {"get":true}][5:15:12 PM], Warehouse stock
+[2021-05-19T17:24:01.981] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][5:15:12 PM], All dispatches
+[2021-05-19T17:24:01.994] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][5:15:12 PM], Purchase order of suppliers
+[2021-05-19T17:24:02.003] [INFO] Paperbird - [/getAll, {"get":true}][5:15:12 PM], All supplier warehouse
+[2021-05-19T17:24:02.468] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][5:15:12 PM], All dispatches
+[2021-05-19T17:24:04.957] [INFO] Paperbird - [/getOrderDetail/:id/:type, {"get":true}][5:15:12 PM], Order Detail
+[2021-05-19T17:24:44.706] [INFO] Paperbird - [/newDispatch, {"post":true}][5:15:12 PM], Updated
+[2021-05-19T17:24:45.247] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][5:15:12 PM], All dispatches
+[2021-05-19T17:24:47.935] [INFO] Paperbird - [/getSingleDispatchOrder/:id/:dispatchID, {"get":true}][5:15:12 PM], all order
+[2021-05-19T17:24:53.912] [INFO] Paperbird - [/confirmDispatch/:id, {"post":true}][5:15:12 PM], Updated
+[2021-05-19T17:24:53.938] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][5:15:12 PM], All dispatches
+[2021-05-19T17:24:54.450] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][5:15:12 PM], All dispatches
+[2021-05-19T17:24:59.929] [INFO] Paperbird - [/getSingleDispatchOrder/:id/:dispatchID, {"get":true}][5:15:12 PM], all order
+[2021-05-19T17:27:07.473] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][5:15:12 PM], Purchase order of suppliers
+[2021-05-19T17:27:07.482] [INFO] Paperbird - [/getAll, {"get":true}][5:15:12 PM], All supplier warehouse
+[2021-05-19T17:27:09.018] [INFO] Paperbird - [/getOrderDetail/:id/:type, {"get":true}][5:15:12 PM], Order Detail
+[2021-05-19T17:27:12.782] [INFO] Paperbird - [/productStock/:id, {"get":true}][5:15:12 PM], Warehouse stock
+[2021-05-19T17:28:52.717] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][5:15:12 PM], Purchase order of suppliers
+[2021-05-19T17:28:52.731] [INFO] Paperbird - [/getAll, {"get":true}][5:15:12 PM], All supplier warehouse
+[2021-05-19T17:28:54.270] [INFO] Paperbird - [/getOrderDetail/:id/:type, {"get":true}][5:15:12 PM], Order Detail
+[2021-05-19T17:28:57.284] [INFO] Paperbird - [/productStock/:id, {"get":true}][5:15:12 PM], Warehouse stock
+[2021-05-19T17:28:58.641] [INFO] Paperbird - [/productStock/:id, {"get":true}][5:15:12 PM], Warehouse stock
+[2021-05-19T17:28:59.954] [INFO] Paperbird - [/productStock/:id, {"get":true}][5:15:12 PM], Warehouse stock
+[2021-05-19T17:29:02.567] [INFO] Paperbird - [/productStock/:id, {"get":true}][5:15:12 PM], Warehouse stock
+[2021-05-19T17:29:03.483] [INFO] Paperbird - [/productStock/:id, {"get":true}][5:15:12 PM], Warehouse stock
+[2021-05-19T17:29:04.178] [INFO] Paperbird - [/productStock/:id, {"get":true}][5:15:12 PM], Warehouse stock
+[2021-05-19T17:29:05.101] [INFO] Paperbird - [/updateOrder/:id, {"post":true}][5:15:12 PM], Purchase orders updated
+[2021-05-19T17:29:05.138] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][5:15:12 PM], Purchase order of suppliers
+[2021-05-19T17:29:05.145] [INFO] Paperbird - [/getAll, {"get":true}][5:15:12 PM], All supplier warehouse
+[2021-05-19T17:29:08.830] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][5:15:12 PM], All dispatches
+[2021-05-19T17:29:08.842] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][5:15:12 PM], Purchase order of suppliers
+[2021-05-19T17:29:08.854] [INFO] Paperbird - [/getAll, {"get":true}][5:15:12 PM], All supplier warehouse
+[2021-05-19T17:29:09.324] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][5:15:12 PM], All dispatches
+[2021-05-19T17:29:13.075] [INFO] Paperbird - [/getOrderDetail/:id/:type, {"get":true}][5:15:12 PM], Order Detail
+[2021-05-19T17:33:17.338] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:33:17.377] [INFO] Paperbird - [/getCustomerOrders, {"post":true}][5:15:12 PM], This are all customer Orders
+[2021-05-19T17:33:17.476] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][5:15:12 PM], All Orders
+[2021-05-19T17:33:17.514] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][5:15:12 PM], All Orders
+[2021-05-19T17:33:21.779] [INFO] Paperbird - [/getCustomerOrders, {"post":true}][5:15:12 PM], This are all customer Orders
+[2021-05-19T17:33:21.851] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][5:15:12 PM], All Orders
+[2021-05-19T17:33:50.450] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][5:15:12 PM], All Orders
+[2021-05-19T17:33:52.012] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][5:15:12 PM], All Orders
+[2021-05-19T17:33:56.349] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][5:15:12 PM], All Orders
+[2021-05-19T17:37:21.093] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:37:21.107] [INFO] Paperbird - [/getCustomerOrders, {"post":true}][5:15:12 PM], This are all customer Orders
+[2021-05-19T17:37:59.342] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:37:59.343] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:37:59.406] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:37:59.464] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:37:59.482] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:37:59.494] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:37:59.510] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:37:59.523] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:37:59.541] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:37:59.553] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][5:15:12 PM], All customer groups
+[2021-05-19T17:37:59.609] [INFO] Paperbird - [/getSupplier, {"post":true}][5:15:12 PM], Supplier Data
+[2021-05-19T17:37:59.759] [INFO] Paperbird - [/allProducts, {"post":true}][5:15:12 PM], All products
+[2021-05-19T17:38:18.335] [INFO] Paperbird - [/addCart, {"post":true}][5:15:12 PM], Customer Login Successfull
+[2021-05-19T17:38:23.285] [INFO] Paperbird - [/getCart, {"get":true}][5:15:12 PM], User Cart
+[2021-05-19T17:38:23.541] [INFO] Paperbird - [/countries, {"get":true}][5:15:12 PM], All countries
+[2021-05-19T17:38:23.548] [INFO] Paperbird - [/states/:id, {"get":true}][5:15:12 PM], All States
+[2021-05-19T17:38:23.553] [INFO] Paperbird - [/cities/:state_id/:country_id, {"get":true}][5:15:12 PM], All Cities
+[2021-05-19T17:38:23.648] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:38:28.262] [INFO] Paperbird - [/addCart, {"post":true}][5:15:12 PM], Customer Login Successfull
+[2021-05-19T17:38:28.578] [INFO] Paperbird - [/getAll, {"get":true}][5:15:12 PM], All addresses
+[2021-05-19T17:38:30.580] [INFO] Paperbird - [/newOrder, {"post":true}][5:15:12 PM], Order created successfully
+[2021-05-19T17:38:30.639] [INFO] Paperbird - [/removeCart/:id, {"get":true}][5:15:12 PM], Product removed successfully
+[2021-05-19T17:38:31.552] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:38:31.554] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:38:31.580] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:38:31.593] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:38:31.601] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:38:31.609] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:38:31.622] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:38:31.630] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:38:31.638] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:38:31.646] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][5:15:12 PM], All customer groups
+[2021-05-19T17:38:31.685] [INFO] Paperbird - [/getSupplier, {"post":true}][5:15:12 PM], Supplier Data
+[2021-05-19T17:38:31.843] [INFO] Paperbird - [/allProducts, {"post":true}][5:15:12 PM], All products
+[2021-05-19T17:38:34.226] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][5:15:12 PM], All data
+[2021-05-19T17:38:34.247] [INFO] Paperbird - [/getCustomerOrders, {"post":true}][5:15:12 PM], This are all customer Orders
+[2021-05-19T17:38:34.296] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][5:15:12 PM], All Orders
+[2021-05-19T17:38:34.297] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][5:15:12 PM], All Orders
+[2021-05-19T17:38:38.222] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][5:15:12 PM], Purchase order of suppliers
+[2021-05-19T17:38:38.233] [INFO] Paperbird - [/getAll, {"get":true}][5:15:12 PM], All supplier warehouse
+[2021-05-19T17:38:42.362] [INFO] Paperbird - [/getOrderDetail/:id/:type, {"get":true}][5:15:12 PM], Order Detail
+[2021-05-19T17:38:43.172] [INFO] Paperbird - [/getNotification, {"post":true}][5:15:12 PM], first five notifications
+[2021-05-19T17:38:50.315] [INFO] Paperbird - [/productStock/:id, {"get":true}][5:15:12 PM], Warehouse stock
+[2021-05-19T17:38:54.569] [INFO] Paperbird - [/productStock/:id, {"get":true}][5:15:12 PM], Warehouse stock
+[2021-05-19T17:38:55.266] [INFO] Paperbird - [/productStock/:id, {"get":true}][5:15:12 PM], Warehouse stock
+[2021-05-19T17:39:01.247] [INFO] Paperbird - [/productStock/:id, {"get":true}][5:15:12 PM], Warehouse stock
+[2021-05-19T17:39:17.614] [INFO] Paperbird - [/updateOrder/:id, {"post":true}][5:15:12 PM], Purchase orders updated
+[2021-05-19T17:39:17.641] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][5:15:12 PM], Purchase order of suppliers
+[2021-05-19T17:39:17.647] [INFO] Paperbird - [/getAll, {"get":true}][5:15:12 PM], All supplier warehouse
+[2021-05-19T17:39:19.765] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][5:15:12 PM], All dispatches
+[2021-05-19T17:39:19.776] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][5:15:12 PM], Purchase order of suppliers
+[2021-05-19T17:39:19.781] [INFO] Paperbird - [/getAll, {"get":true}][5:15:12 PM], All supplier warehouse
+[2021-05-19T17:39:20.258] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][5:15:12 PM], All dispatches
+[2021-05-19T17:54:09.472] [ERROR] Paperbird - Something went wrong: ReferenceError: successResponses is not defined
+    at C:\Projects\paperbird\server\routes\Dashboard\index.js:10:5
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at module.exports (C:\Projects\paperbird\server\middlewares\jwtauth.js:56:5)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at C:\Projects\paperbird\server\app.js:177:3
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+[2021-05-19T17:57:20.052] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][5:53:02 PM], All data
+[2021-05-19T17:59:23.938] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][5:53:02 PM], Purchase order of suppliers
+[2021-05-19T17:59:23.962] [INFO] Paperbird - [/getAll, {"get":true}][5:53:02 PM], All supplier warehouse
+[2021-05-19T17:59:25.620] [INFO] Paperbird - [/getNotification, {"post":true}][5:53:02 PM], first five notifications
+[2021-05-19T17:59:28.219] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][5:53:02 PM], Purchase order of suppliers
+[2021-05-19T17:59:28.224] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][5:53:02 PM], All dispatches
+[2021-05-19T17:59:28.235] [INFO] Paperbird - [/getAll, {"get":true}][5:53:02 PM], All supplier warehouse
+[2021-05-19T17:59:28.690] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][5:53:02 PM], All dispatches
+[2021-05-19T17:59:29.938] [INFO] Paperbird - [/getAll, {"post":true}][5:53:02 PM], All orders
+[2021-05-19T17:59:30.396] [INFO] Paperbird - [/getAll, {"post":true}][5:53:02 PM], All orders
+[2021-05-19T17:59:30.547] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][5:53:02 PM], All dispatches
+[2021-05-19T17:59:30.567] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][5:53:02 PM], Purchase order of suppliers
+[2021-05-19T17:59:30.576] [INFO] Paperbird - [/getAll, {"get":true}][5:53:02 PM], All supplier warehouse
+[2021-05-19T17:59:31.039] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][5:53:02 PM], All dispatches
+[2021-05-19T17:59:33.511] [INFO] Paperbird - [/getOrderDetail/:id/:type, {"get":true}][5:53:02 PM], Order Detail
+[2021-05-19T18:00:59.279] [INFO] Paperbird - [/newDispatch, {"post":true}][5:53:02 PM], Updated
+[2021-05-19T18:00:59.822] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][5:53:02 PM], All dispatches
+[2021-05-19T18:01:04.092] [INFO] Paperbird - [/getSingleDispatchOrder/:id/:dispatchID, {"get":true}][5:53:02 PM], all order
+[2021-05-19T19:10:31.556] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:10:31.560] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:10:31.593] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:10:31.646] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:10:31.703] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:10:31.726] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:10:31.756] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:10:31.776] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:10:31.796] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:10:31.809] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][6:02:33 PM], All customer groups
+[2021-05-19T19:10:31.897] [INFO] Paperbird - [/getSupplier, {"post":true}][6:02:33 PM], Supplier Data
+[2021-05-19T19:10:32.133] [INFO] Paperbird - [/allProducts, {"post":true}][6:02:33 PM], All products
+[2021-05-19T19:10:37.605] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:10:37.616] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:10:37.625] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:10:37.639] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:10:37.649] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:10:37.658] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:10:37.671] [INFO] Paperbird - [/getAllPaperGsm/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:10:37.680] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][6:02:33 PM], All customer groups
+[2021-05-19T19:10:37.788] [INFO] Paperbird - [/getSinglePublishedProduct/:id, {"get":true}][6:02:33 PM], All products
+[2021-05-19T19:10:37.799] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:10:37.802] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][6:02:33 PM], All customer groups
+[2021-05-19T19:13:27.539] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:13:27.542] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:13:27.567] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:13:27.578] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:13:27.586] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:13:27.594] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:13:27.605] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:13:27.614] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:13:27.622] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:13:27.629] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][6:02:33 PM], All customer groups
+[2021-05-19T19:13:27.656] [INFO] Paperbird - [/getSupplier, {"post":true}][6:02:33 PM], Supplier Data
+[2021-05-19T19:13:27.761] [INFO] Paperbird - [/allProducts, {"post":true}][6:02:33 PM], All products
+[2021-05-19T19:13:29.290] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:13:29.291] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:13:29.315] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:13:29.321] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:13:29.330] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:13:29.337] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:13:29.342] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:13:29.352] [INFO] Paperbird - [/getAllPaperGsm/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:13:29.359] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][6:02:33 PM], All customer groups
+[2021-05-19T19:13:29.434] [INFO] Paperbird - [/getSinglePublishedProduct/:id, {"get":true}][6:02:33 PM], All products
+[2021-05-19T19:13:29.442] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][6:02:33 PM], All customer groups
+[2021-05-19T19:13:31.650] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:13:31.652] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:13:31.667] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:13:31.679] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:13:31.687] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:13:31.692] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:13:31.701] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:13:31.710] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:13:31.715] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:13:31.723] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][6:02:33 PM], All customer groups
+[2021-05-19T19:13:31.742] [INFO] Paperbird - [/getSupplier, {"post":true}][6:02:33 PM], Supplier Data
+[2021-05-19T19:13:31.852] [INFO] Paperbird - [/allProducts, {"post":true}][6:02:33 PM], All products
+[2021-05-19T19:13:56.525] [INFO] Paperbird - [/, {"post":true}][6:02:33 PM], Login successful
+[2021-05-19T19:13:56.613] [ERROR] Paperbird - Something went wrong: ReferenceError: successResponses is not defined
+    at C:\Projects\paperbird\server\routes\Dashboard\index.js:10:5
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at module.exports (C:\Projects\paperbird\server\middlewares\jwtauth.js:56:5)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at C:\Projects\paperbird\server\app.js:177:3
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+[2021-05-19T19:14:00.491] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][6:02:33 PM], All dispatches
+[2021-05-19T19:14:00.511] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][6:02:33 PM], Purchase order of suppliers
+[2021-05-19T19:14:00.522] [INFO] Paperbird - [/getAll, {"get":true}][6:02:33 PM], All supplier warehouse
+[2021-05-19T19:14:00.985] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][6:02:33 PM], All dispatches
+[2021-05-19T19:16:51.262] [INFO] Paperbird - [/getSingleDispatchOrder/:id/:dispatchID, {"get":true}][6:02:33 PM], all order
+[2021-05-19T19:17:05.618] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][6:02:33 PM], All data
+[2021-05-19T19:17:05.643] [INFO] Paperbird - [/getCustomerOrders, {"post":true}][6:02:33 PM], This are all customer Orders
+[2021-05-19T19:17:05.703] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][6:02:33 PM], All Orders
+[2021-05-19T19:17:05.725] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][6:02:33 PM], All Orders
+[2021-05-19T19:34:50.772] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][7:17:50 PM], All dispatches
+[2021-05-19T19:34:50.778] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][7:17:50 PM], Purchase order of suppliers
+[2021-05-19T19:34:50.914] [INFO] Paperbird - [/getAll, {"get":true}][7:17:50 PM], All supplier warehouse
+[2021-05-19T19:34:51.044] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][7:17:50 PM], All dispatches
+[2021-05-19T19:35:03.213] [INFO] Paperbird - [/getSingleDispatchOrder/:id/:dispatchID, {"get":true}][7:17:50 PM], all order
+[2021-05-19T19:43:52.642] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][7:43:49 PM], All dispatches
+[2021-05-19T19:43:52.674] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][7:43:49 PM], Purchase order of suppliers
+[2021-05-19T19:43:52.826] [INFO] Paperbird - [/getAll, {"get":true}][7:43:49 PM], All supplier warehouse
+[2021-05-19T19:43:53.089] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][7:43:49 PM], All dispatches
+[2021-05-19T19:43:53.841] [INFO] Paperbird - [/getSingleDispatchOrder/:id/:dispatchID, {"get":true}][7:43:49 PM], all order
+[2021-05-19T19:45:02.417] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][7:43:49 PM], Purchase order of suppliers
+[2021-05-19T19:45:02.430] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][7:43:49 PM], All dispatches
+[2021-05-19T19:45:02.541] [INFO] Paperbird - [/getAll, {"get":true}][7:43:49 PM], All supplier warehouse
+[2021-05-19T19:45:02.771] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][7:43:49 PM], All dispatches
+[2021-05-19T19:45:18.958] [INFO] Paperbird - [/getSingleDispatchOrder/:id/:dispatchID, {"get":true}][7:43:49 PM], all order
+[2021-05-19T19:45:33.310] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][7:43:49 PM], All dispatches
+[2021-05-19T19:45:33.329] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][7:43:49 PM], Purchase order of suppliers
+[2021-05-19T19:45:33.408] [INFO] Paperbird - [/getAll, {"get":true}][7:43:49 PM], All supplier warehouse
+[2021-05-19T19:45:33.673] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][7:43:49 PM], All dispatches
+[2021-05-19T19:45:38.625] [INFO] Paperbird - [/getSingleDispatchOrder/:id/:dispatchID, {"get":true}][7:43:49 PM], all order
+[2021-05-19T19:45:55.733] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][7:43:49 PM], Purchase order of suppliers
+[2021-05-19T19:45:55.738] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][7:43:49 PM], All dispatches
+[2021-05-19T19:45:55.828] [INFO] Paperbird - [/getAll, {"get":true}][7:43:49 PM], All supplier warehouse
+[2021-05-19T19:45:56.105] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][7:43:49 PM], All dispatches
+[2021-05-19T19:45:57.833] [INFO] Paperbird - [/getSingleDispatchOrder/:id/:dispatchID, {"get":true}][7:43:49 PM], all order
+[2021-05-19T19:46:10.346] [INFO] Paperbird - [/getNotification, {"post":true}][7:43:49 PM], first five notifications
+[2021-05-19T21:00:07.498] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][7:47:16 PM], All dispatches
+[2021-05-19T21:00:07.521] [INFO] Paperbird - [/getSuppliersOrders/:type, {"post":true}][7:47:16 PM], Purchase order of suppliers
+[2021-05-19T21:00:07.551] [INFO] Paperbird - [/getAll, {"get":true}][7:47:16 PM], All supplier warehouse
+[2021-05-19T21:00:07.966] [INFO] Paperbird - [/allDispatchOrder, {"post":true}][7:47:16 PM], All dispatches
+[2021-05-19T21:02:56.830] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][7:47:16 PM], All data
+[2021-05-19T21:02:56.844] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][7:47:16 PM], All data
+[2021-05-19T21:02:56.856] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][7:47:16 PM], All data
+[2021-05-19T21:02:56.872] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][7:47:16 PM], All data
+[2021-05-19T21:02:56.882] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][7:47:16 PM], All data
+[2021-05-19T21:02:56.905] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][7:47:16 PM], All data
+[2021-05-19T21:02:56.926] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][7:47:16 PM], All data
+[2021-05-19T21:02:56.935] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][7:47:16 PM], All data
+[2021-05-19T21:02:56.951] [INFO] Paperbird - [/getAllPaperGsm/:name, {"get":true}][7:47:16 PM], All data
+[2021-05-19T21:02:57.169] [INFO] Paperbird - [/getProducts, {"post":true}][7:47:16 PM], Product Data
+[2021-05-19T21:03:00.261] [ERROR] Paperbird - [/addProduct, {"post":true}][7:47:16 PM], Error: WHERE parameter "ProductNo" has invalid "undefined" value
+[2021-05-19T21:06:21.337] [INFO] Paperbird - [/getCustomerOrders, {"post":true}][9:04:02 PM], This are all customer Orders
+[2021-05-19T21:06:21.414] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][9:04:02 PM], All Orders
+[2021-05-19T21:07:04.652] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][9:06:59 PM], All data
+[2021-05-19T21:07:04.670] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][9:06:59 PM], All data
+[2021-05-19T21:07:04.695] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][9:06:59 PM], All data
+[2021-05-19T21:07:04.719] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][9:06:59 PM], All data
+[2021-05-19T21:07:04.727] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][9:06:59 PM], All data
+[2021-05-19T21:07:04.745] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][9:06:59 PM], All data
+[2021-05-19T21:07:04.759] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][9:06:59 PM], All data
+[2021-05-19T21:07:04.769] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][9:06:59 PM], All data
+[2021-05-19T21:07:04.782] [INFO] Paperbird - [/getAllPaperGsm/:name, {"get":true}][9:06:59 PM], All data
+[2021-05-19T21:07:05.002] [INFO] Paperbird - [/getProducts, {"post":true}][9:06:59 PM], Product Data
+[2021-05-19T21:07:07.876] [WARN] Paperbird - [/addProduct, {"post":true}][9:06:59 PM], "Required fields empty"
+[2021-05-19T21:07:37.307] [WARN] Paperbird - [/addProduct, {"post":true}][9:07:35 PM], "Required fields empty"
+[2021-05-19T21:08:45.575] [INFO] Paperbird - [/getNotification, {"post":true}][9:08:13 PM], first five notifications
+[2021-05-19T21:08:47.507] [INFO] Paperbird - [/getProducts, {"post":true}][9:08:13 PM], Product Data
+[2021-05-19T21:09:30.665] [INFO] Paperbird - [/getProducts, {"post":true}][9:08:13 PM], Product Data
+[2021-05-19T21:09:35.971] [INFO] Paperbird - [/getProducts, {"post":true}][9:08:13 PM], Product Data
+[2021-05-19T21:09:41.878] [INFO] Paperbird - [/getProducts, {"post":true}][9:08:13 PM], Product Data
+[2021-05-19T21:09:44.084] [INFO] Paperbird - [/getProductsWithPricing, {"post":true}][9:08:13 PM], Product Data
+[2021-05-19T21:09:44.139] [INFO] Paperbird - [/getAllGroups, {"get":true}][9:08:13 PM], All groups
+[2021-05-19T21:09:44.371] [INFO] Paperbird - [/getProducts, {"post":true}][9:08:13 PM], Product Data

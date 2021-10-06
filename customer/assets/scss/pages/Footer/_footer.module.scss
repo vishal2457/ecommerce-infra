@@ -1,0 +1,40 @@
+
+.footer {
+    .logo-text {
+      color: $black;
+      letter-spacing: 2px;
+    }
+  
+    .active {
+      color: $color-orange;
+      padding-left: 10px;
+    }
+  
+    .icon-color {
+      color: $gray_color_dot;
+      
+    padding: 5px 15px;
+    }
+  
+    .icon-color .active {
+      color: $color-orange;
+    }
+  
+    .icon-active {
+      color: $active_link;
+    }
+    & .copyright_area{
+      text-transform: capitalize;
+      color: $gray_color_dot;
+      font-size: 13px;
+    }
+    & .address{
+      color: $menu_color;
+    }
+    & .footer-menu{
+      color: $button_color;
+    }
+  
+  
+  }
+  

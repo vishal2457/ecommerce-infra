@@ -1,0 +1,73 @@
+.inquiries_scroll {
+  overflow-y: auto;
+  max-height: 70vh;
+  padding-right: 10px !important;
+}
+.orderCard {
+  background-color: #fafafa;
+  border-radius: 10px;
+  margin: 8px auto;
+  border-right: 4px #fff solid;
+}
+.activeOrder {
+  border-right: 4px #ec7972 solid !important;
+}
+.line_hight_13{
+  line-height: 13px;
+}
+.inquiry_status{
+  font-size: 13px;
+  font-weight: 600;
+  color: #2e70fa;
+  line-height: 1;
+  background-color: rgba(46, 112, 250, 0.1);
+  padding: 10px;
+  border-radius: 6px;
+  display: inline-block;
+  margin: 8px 4px;
+}
+.quotationbtn.edit_btn .btn-info{
+  color: #fff;
+    background-color: #484848 !important;
+    border-color: #484848 !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+.btn.btn-danger{
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+.icon_bar{
+  position: absolute;
+  right: 15px;
+  top: 7px;
+  z-index: 1;
+}
+.quotationbtn{
+  display: inline-block;
+  margin: 8px 4px;
+  padding: 0px !important;
+}
+
+.product-info{
+  // width: 58%;
+  width: 100%;
+}
+.price_inquiry{
+  font-size: 13px;
+  font-weight: 600;
+  color: #198754;
+  line-height: 1;
+  background-color: rgba(25, 135, 84, 0.2);
+  padding: 5px;
+  border-radius: 6px;
+  display: inline-block;
+}
+.br_5{
+  border-radius: 5px;
+}
+.cancel_btn{
+  position: absolute;
+  right: 16px;
+  bottom: 0px;
+}

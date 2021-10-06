@@ -1,0 +1,296 @@
+[2021-04-06T19:11:54.559] [INFO] Paperbird - [/countries, {"get":true}][7:11:44 PM], All countries
+[2021-04-06T19:12:38.451] [INFO] Paperbird - [/states/:id, {"get":true}][7:11:44 PM], All States
+[2021-04-06T19:12:39.464] [INFO] Paperbird - [/cities/:state_id/:country_id, {"get":true}][7:11:44 PM], All Cities
+[2021-04-06T19:13:03.947] [INFO] Paperbird - [/register, {"post":true}][7:11:44 PM], Supplier registered successfully
+[2021-04-06T19:13:37.031] [INFO] Paperbird - [/getNotification, {"post":true}][7:11:44 PM], first five notifications
+[2021-04-06T19:16:34.540] [INFO] Paperbird - [/getNotification, {"post":true}][7:14:43 PM], first five notifications
+[2021-04-06T19:16:35.722] [INFO] Paperbird - [/readNotification, {"post":true}][7:14:43 PM], Notification is being read
+[2021-04-06T19:16:35.828] [INFO] Paperbird - [/countries, {"get":true}][7:14:43 PM], All countries
+[2021-04-06T19:16:35.840] [INFO] Paperbird - [/states, {"get":true}][7:14:43 PM], All states
+[2021-04-06T19:16:35.850] [INFO] Paperbird - [/cities, {"get":true}][7:14:43 PM], All cities
+[2021-04-06T19:16:36.146] [INFO] Paperbird - [/getSupplier, {"post":true}][7:14:43 PM], Supplier Data
+[2021-04-06T19:16:45.343] [INFO] Paperbird - [/countries, {"get":true}][7:14:43 PM], All countries
+[2021-04-06T19:16:45.387] [INFO] Paperbird - [/states, {"get":true}][7:14:43 PM], All states
+[2021-04-06T19:16:45.413] [INFO] Paperbird - [/cities, {"get":true}][7:14:43 PM], All cities
+[2021-04-06T19:16:45.623] [INFO] Paperbird - [/getSupplier, {"post":true}][7:14:43 PM], Supplier Data
+[2021-04-06T19:18:49.212] [INFO] Paperbird - [/, {"post":true}][7:18:16 PM], Login successful
+[2021-04-06T19:18:49.398] [ERROR] Paperbird - Something went wrong: ReferenceError: successResponses is not defined
+    at C:\Projects\paperbird\server\routes\Dashboard\index.js:10:5
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at module.exports (C:\Projects\paperbird\server\middlewares\jwtauth.js:56:5)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at C:\Projects\paperbird\server\app.js:175:3
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+[2021-04-06T19:19:07.095] [ERROR] Paperbird - Something went wrong: ReferenceError: successResponses is not defined
+    at C:\Projects\paperbird\server\routes\Dashboard\index.js:10:5
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at module.exports (C:\Projects\paperbird\server\middlewares\jwtauth.js:56:5)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at C:\Projects\paperbird\server\app.js:175:3
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+[2021-04-06T19:19:15.652] [INFO] Paperbird - [/, {"post":true}][7:18:16 PM], Login successful
+[2021-04-06T19:20:39.026] [INFO] Paperbird - [/getNotification, {"post":true}][7:20:19 PM], first five notifications
+[2021-04-06T19:20:39.875] [INFO] Paperbird - [/getNotification, {"post":true}][7:20:19 PM], first five notifications
+[2021-04-06T19:20:40.605] [INFO] Paperbird - [/getNotification, {"post":true}][7:20:19 PM], first five notifications
+[2021-04-06T19:47:04.441] [ERROR] Paperbird - Something went wrong: ReferenceError: redisClient is not defined
+    at C:\Projects\paperbird\server\app.js:175:20
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:127:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+[2021-04-06T19:47:04.624] [ERROR] Paperbird - Something went wrong: ReferenceError: redisClient is not defined
+    at C:\Projects\paperbird\server\app.js:175:20
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:127:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+[2021-04-06T19:47:04.635] [ERROR] Paperbird - Something went wrong: ReferenceError: redisClient is not defined
+    at C:\Projects\paperbird\server\app.js:175:20
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:127:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+[2021-04-06T19:47:06.229] [ERROR] Paperbird - Something went wrong: ReferenceError: redisClient is not defined
+    at C:\Projects\paperbird\server\app.js:175:20
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:127:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+[2021-04-06T19:47:09.645] [ERROR] Paperbird - Something went wrong: ReferenceError: redisClient is not defined
+    at C:\Projects\paperbird\server\app.js:175:20
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:127:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+[2021-04-06T19:47:10.250] [ERROR] Paperbird - Something went wrong: ReferenceError: redisClient is not defined
+    at C:\Projects\paperbird\server\app.js:175:20
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:127:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+[2021-04-06T19:47:14.628] [ERROR] Paperbird - Something went wrong: ReferenceError: redisClient is not defined
+    at C:\Projects\paperbird\server\app.js:175:20
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:127:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+[2021-04-06T19:47:15.628] [ERROR] Paperbird - Something went wrong: ReferenceError: redisClient is not defined
+    at C:\Projects\paperbird\server\app.js:175:20
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:127:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+[2021-04-06T19:47:16.259] [ERROR] Paperbird - Something went wrong: ReferenceError: redisClient is not defined
+    at C:\Projects\paperbird\server\app.js:175:20
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:127:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+[2021-04-06T19:47:17.241] [ERROR] Paperbird - Something went wrong: ReferenceError: redisClient is not defined
+    at C:\Projects\paperbird\server\app.js:175:20
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:127:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)

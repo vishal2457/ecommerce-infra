@@ -1,0 +1,8 @@
+export const CHAT_TOGGLE_LIST = "CHAT_TOGGLE_LIST";
+export const START_CHAT = "START_CHAT";
+export const REMOVE_CHAT = "REMOVE_CHAT"
+export const LOAD_CHAT_LIST = "LOAD_LIST";
+export const LOAD_CHAT_LIST_ERROR = "LOAD_LIST_ERROR"
+export const SET_SOCKET = "SET_SOCKET"
+export const HANDLE_NEW_MESSAGE = "HANDLE_NEW_MESSAGE"
+// export const FILL_CHAT_MESSAGES = "FILL_CHAT_MESSAGES"

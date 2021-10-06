@@ -1,0 +1,29 @@
+{
+    "development": {
+      "username": "root",
+      "password": null,
+      "database": "paperbird2",
+      "dialect": "mysql",
+      "host" : "localhost",
+      "client" : "http://localhost:3001",
+      "redisPort" :"6379"
+    },
+    "test": {
+      "username": "prosesindia_paperbird",
+      "password": "proses1412",
+      "database": "prosesindia_paperbird",
+      "dialect": "mysql",
+      "host" : "localhost",
+      "client" : "http://paperbirdadmin.expolyst.com",
+      "redisPort" :"6379"
+    },
+    "production": {
+      "username": "expolyst_proses",
+      "password": "proses1412",
+      "database": "expolyst_paperbird",
+      "dialect": "mysql",
+      "host" : "expolyst.com",
+      "client" : "http://paperbirdadmin.expolyst.com",
+      "redisPort" :"6379"
+    }
+  }

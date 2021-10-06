@@ -1,0 +1,24 @@
+apiVersion: skaffold/v2beta13
+kind: Config
+metadata:
+  name: paperbird-infra
+build:
+  artifacts:
+  - image: vishal2457/admin
+    context: supplier
+    docker:
+      dockerfile: Dockerfile
+  - image: vishal2457/customer
+    context: customer
+    docker:
+      dockerfile: Dockerfile
+  - image: vishal2457/server
+    context: server
+    docker:
+      dockerfile: Dockerfile
+deploy:
+  kubectl:
+    manifests:
+    - Infra/k8s/admin.yml
+    - Infra/k8s/customer.yml
+    - Infra/k8s/server.yml

@@ -1,0 +1,101 @@
+/* transition */
+@mixin transition($property) {
+    -webkit-transition: $property;
+    transition: $property;
+}
+
+/* flex */
+@mixin flex($property) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+}
+
+/* transform */
+@mixin transform($property) {
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    transform: $property;
+}
+
+/* opacity */
+@mixin opacity($opacity) {
+    opacity: $opacity;
+    -ms-filter: $opacity;
+}
+
+@mixin card_title($color) {
+    color: $color;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    visibility: visible;
+    line-height: 0rem;
+    font-family: $Montserrat;
+    @if $color == hblue{
+        color:$card_title_one;
+    }
+    @else if $color == hyellow{
+        color:$card_title_two;
+    }
+    @else {
+        color:$card_title_three;
+    }
+}
+
+@mixin dot-color($bgcolor, $box-shadow-color) {
+    background-color: $bgcolor;
+    border: 3px solid $white;
+    border-radius: 18px;
+    // box-shadow: 0 0 2px $box-shadow-color;
+    height: 18px;
+    width: 18px;
+   
+
+}
+
+@mixin box($listStyle) {
+    @if $listStyle == none {
+        ul {
+            display: block;
+            font-size: 12px;
+            list-style-type: disc;
+            list-style: inside;
+        }
+    }
+    @if $listStyle == inside {
+        ul {
+            font-size: 12px;
+            display: block;
+            list-style-type: square;
+        }
+    }
+}
+// @mixin btn($background-color){
+//    @if $background-color == $white{
+//        padding:0.175rem 3.75rem !important ;
+//    }
+//    @else if $background-color == $black {
+//     padding:0.175rem 1.75rem !important ;
+// }
+//    @else{
+//     padding:0.375rem 2.75rem !important;
+    
+//    }
+// }
+@mixin h5($color:$gray-800) {
+    color: $color;
+    font-size: 14px;
+    @if $color == $gray-600 {
+        font-weight: 600;
+    } @else if $color == $black {
+        font-weight: 600;
+    } @else if $color == $gray-500 {
+        font-weight: 700;
+    } @else {
+        font-weight: 600;
+    }
+}
+
+

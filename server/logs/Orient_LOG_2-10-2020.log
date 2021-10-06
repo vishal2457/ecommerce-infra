@@ -1,0 +1,314 @@
+[2020-10-02T10:29:09.457] [ERROR] Orient - Database error ConnectionRefusedError [SequelizeConnectionRefusedError]: connect ECONNREFUSED 127.0.0.1:3306
+    at D:\vishal\paperbird\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:123:19
+    at tryCatcher (D:\vishal\paperbird\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\vishal\paperbird\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\vishal\paperbird\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\vishal\paperbird\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\vishal\paperbird\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (D:\vishal\paperbird\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\vishal\paperbird\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\vishal\paperbird\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (D:\vishal\paperbird\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:439:21) {
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED 127.0.0.1:3306
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1128:14) {
+    errno: 'ECONNREFUSED',
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 3306,
+    fatal: true
+  },
+  original: Error: connect ECONNREFUSED 127.0.0.1:3306
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1128:14) {
+    errno: 'ECONNREFUSED',
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 3306,
+    fatal: true
+  }
+}
+[2020-10-02T11:17:25.840] [WARN] Orient - [Auth][Login (post)][11:13:27 AM], Invalid email
+[2020-10-02T11:17:31.157] [WARN] Orient - [Auth][Login (post)][11:13:27 AM], Invalid email
+[2020-10-02T11:17:58.068] [WARN] Orient - [Auth][Login (post)][11:13:27 AM], Invalid email
+[2020-10-02T12:23:09.773] [ERROR] Orient - Database sync error Error: Cyclic dependency found. Country is dependent of itself.
+Dependency chain: Country -> Supplier -> City -> State => Country
+    at visit (D:\vishal\paperbird\server\node_modules\toposort-class\build\toposort.js:173:27)
+    at visit (D:\vishal\paperbird\server\node_modules\toposort-class\build\toposort.js:212:29)
+    at visit (D:\vishal\paperbird\server\node_modules\toposort-class\build\toposort.js:212:29)
+    at visit (D:\vishal\paperbird\server\node_modules\toposort-class\build\toposort.js:212:29)
+    at Toposort.sort (D:\vishal\paperbird\server\node_modules\toposort-class\build\toposort.js:252:29)
+    at ModelManager.forEachModel (D:\vishal\paperbird\server\node_modules\sequelize\lib\model-manager.js:86:21)
+    at Sequelize.drop (D:\vishal\paperbird\server\node_modules\sequelize\lib\sequelize.js:879:23)
+    at D:\vishal\paperbird\server\node_modules\sequelize\lib\sequelize.js:810:21
+    at tryCatcher (D:\vishal\paperbird\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\vishal\paperbird\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\vishal\paperbird\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\vishal\paperbird\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\vishal\paperbird\server\node_modules\bluebird\js\release\promise.js:729:18)
+    at _drainQueueStep (D:\vishal\paperbird\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\vishal\paperbird\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\vishal\paperbird\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (D:\vishal\paperbird\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:439:21)
+[2020-10-02T16:59:06.660] [ERROR] Orient - Database sync error Error: Cyclic dependency found. Po_Payment_Details is dependent of itself.
+Dependency chain: Supplier -> Po_Payment_Details -> Purchase_Order -> Inquiry_Master -> Customer => Po_Payment_Details
+    at visit (D:\vishal\paperbird\server\node_modules\toposort-class\build\toposort.js:173:27)
+    at visit (D:\vishal\paperbird\server\node_modules\toposort-class\build\toposort.js:212:29)
+    at visit (D:\vishal\paperbird\server\node_modules\toposort-class\build\toposort.js:212:29)
+    at visit (D:\vishal\paperbird\server\node_modules\toposort-class\build\toposort.js:212:29)
+    at visit (D:\vishal\paperbird\server\node_modules\toposort-class\build\toposort.js:212:29)
+    at Toposort.sort (D:\vishal\paperbird\server\node_modules\toposort-class\build\toposort.js:252:29)
+    at ModelManager.forEachModel (D:\vishal\paperbird\server\node_modules\sequelize\lib\model-manager.js:86:21)
+    at Sequelize.drop (D:\vishal\paperbird\server\node_modules\sequelize\lib\sequelize.js:879:23)
+    at D:\vishal\paperbird\server\node_modules\sequelize\lib\sequelize.js:810:21
+    at tryCatcher (D:\vishal\paperbird\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\vishal\paperbird\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\vishal\paperbird\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\vishal\paperbird\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\vishal\paperbird\server\node_modules\bluebird\js\release\promise.js:729:18)
+    at _drainQueueStep (D:\vishal\paperbird\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\vishal\paperbird\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\vishal\paperbird\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (D:\vishal\paperbird\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:439:21)
+[2020-10-02T17:00:27.945] [ERROR] Orient - Database sync error DatabaseError [SequelizeDatabaseError]: Can't create table `paperbird`.`inquiry_master` (errno: 150 "Foreign key constraint is incorrectly formed")
+    at Query.formatError (D:\vishal\paperbird\server\node_modules\sequelize\lib\dialects\mysql\query.js:244:16)
+    at Query.handler [as onResult] (D:\vishal\paperbird\server\node_modules\sequelize\lib\dialects\mysql\query.js:51:23)
+    at Query.execute (D:\vishal\paperbird\server\node_modules\mysql2\lib\commands\command.js:30:14)
+    at Connection.handlePacket (D:\vishal\paperbird\server\node_modules\mysql2\lib\connection.js:417:32)
+    at PacketParser.onPacket (D:\vishal\paperbird\server\node_modules\mysql2\lib\connection.js:75:12)
+    at PacketParser.executeStart (D:\vishal\paperbird\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (D:\vishal\paperbird\server\node_modules\mysql2\lib\connection.js:82:25)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    at readableAddChunk (_stream_readable.js:289:11)
+    at Socket.Readable.push (_stream_readable.js:223:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'SequelizeDatabaseError',
+  parent: Error: Can't create table `paperbird`.`inquiry_master` (errno: 150 "Foreign key constraint is incorrectly formed")
+      at Packet.asError (D:\vishal\paperbird\server\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (D:\vishal\paperbird\server\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\vishal\paperbird\server\node_modules\mysql2\lib\connection.js:417:32)
+      at PacketParser.onPacket (D:\vishal\paperbird\server\node_modules\mysql2\lib\connection.js:75:12)
+      at PacketParser.executeStart (D:\vishal\paperbird\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\vishal\paperbird\server\node_modules\mysql2\lib\connection.js:82:25)
+      at Socket.emit (events.js:210:5)
+      at addChunk (_stream_readable.js:308:12)
+      at readableAddChunk (_stream_readable.js:289:11)
+      at Socket.Readable.push (_stream_readable.js:223:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_CANT_CREATE_TABLE',
+    errno: 1005,
+    sqlState: 'HY000',
+    sqlMessage: 'Can\'t create table `paperbird`.`inquiry_master` (errno: 150 "Foreign key constraint is incorrectly formed")',
+    sql: 'CREATE TABLE IF NOT EXISTS `Inquiry_Master` (`ID` INTEGER NOT NULL auto_increment , `CustomerID` VARCHAR(255) NOT NULL, `InquiryNo` VARCHAR(255) NOT NULL, `Date` VARCHAR(255) NOT NULL, `StatusID` INTEGER, `Remarks` INTEGER NOT NULL, `ExpectedDate` DATETIME NOT NULL, `ExpiryDate` DATETIME NOT NULL, `FinancialYear` VARCHAR(255) NOT NULL, `Fy_Seq_No` VARCHAR(255) NOT NULL, `IsActive` TINYINT(1) DEFAULT 1, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`ID`), FOREIGN KEY (`CustomerID`) REFERENCES `Customer` (`ID`) ON DELETE NO ACTION ON UPDATE CASCADE) ENGINE=InnoDB;',
+    parameters: undefined
+  },
+  original: Error: Can't create table `paperbird`.`inquiry_master` (errno: 150 "Foreign key constraint is incorrectly formed")
+      at Packet.asError (D:\vishal\paperbird\server\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (D:\vishal\paperbird\server\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\vishal\paperbird\server\node_modules\mysql2\lib\connection.js:417:32)
+      at PacketParser.onPacket (D:\vishal\paperbird\server\node_modules\mysql2\lib\connection.js:75:12)
+      at PacketParser.executeStart (D:\vishal\paperbird\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\vishal\paperbird\server\node_modules\mysql2\lib\connection.js:82:25)
+      at Socket.emit (events.js:210:5)
+      at addChunk (_stream_readable.js:308:12)
+      at readableAddChunk (_stream_readable.js:289:11)
+      at Socket.Readable.push (_stream_readable.js:223:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_CANT_CREATE_TABLE',
+    errno: 1005,
+    sqlState: 'HY000',
+    sqlMessage: 'Can\'t create table `paperbird`.`inquiry_master` (errno: 150 "Foreign key constraint is incorrectly formed")',
+    sql: 'CREATE TABLE IF NOT EXISTS `Inquiry_Master` (`ID` INTEGER NOT NULL auto_increment , `CustomerID` VARCHAR(255) NOT NULL, `InquiryNo` VARCHAR(255) NOT NULL, `Date` VARCHAR(255) NOT NULL, `StatusID` INTEGER, `Remarks` INTEGER NOT NULL, `ExpectedDate` DATETIME NOT NULL, `ExpiryDate` DATETIME NOT NULL, `FinancialYear` VARCHAR(255) NOT NULL, `Fy_Seq_No` VARCHAR(255) NOT NULL, `IsActive` TINYINT(1) DEFAULT 1, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`ID`), FOREIGN KEY (`CustomerID`) REFERENCES `Customer` (`ID`) ON DELETE NO ACTION ON UPDATE CASCADE) ENGINE=InnoDB;',
+    parameters: undefined
+  },
+  sql: 'CREATE TABLE IF NOT EXISTS `Inquiry_Master` (`ID` INTEGER NOT NULL auto_increment , `CustomerID` VARCHAR(255) NOT NULL, `InquiryNo` VARCHAR(255) NOT NULL, `Date` VARCHAR(255) NOT NULL, `StatusID` INTEGER, `Remarks` INTEGER NOT NULL, `ExpectedDate` DATETIME NOT NULL, `ExpiryDate` DATETIME NOT NULL, `FinancialYear` VARCHAR(255) NOT NULL, `Fy_Seq_No` VARCHAR(255) NOT NULL, `IsActive` TINYINT(1) DEFAULT 1, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`ID`), FOREIGN KEY (`CustomerID`) REFERENCES `Customer` (`ID`) ON DELETE NO ACTION ON UPDATE CASCADE) ENGINE=InnoDB;',
+  parameters: undefined
+}
+[2020-10-02T17:03:02.176] [ERROR] Orient - Database sync error DatabaseError [SequelizeDatabaseError]: Can't create table `paperbird`.`purchase_order_details` (errno: 150 "Foreign key constraint is incorrectly formed")
+    at Query.formatError (D:\vishal\paperbird\server\node_modules\sequelize\lib\dialects\mysql\query.js:244:16)
+    at Query.handler [as onResult] (D:\vishal\paperbird\server\node_modules\sequelize\lib\dialects\mysql\query.js:51:23)
+    at Query.execute (D:\vishal\paperbird\server\node_modules\mysql2\lib\commands\command.js:30:14)
+    at Connection.handlePacket (D:\vishal\paperbird\server\node_modules\mysql2\lib\connection.js:417:32)
+    at PacketParser.onPacket (D:\vishal\paperbird\server\node_modules\mysql2\lib\connection.js:75:12)
+    at PacketParser.executeStart (D:\vishal\paperbird\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (D:\vishal\paperbird\server\node_modules\mysql2\lib\connection.js:82:25)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    at readableAddChunk (_stream_readable.js:289:11)
+    at Socket.Readable.push (_stream_readable.js:223:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+  name: 'SequelizeDatabaseError',
+  parent: Error: Can't create table `paperbird`.`purchase_order_details` (errno: 150 "Foreign key constraint is incorrectly formed")
+      at Packet.asError (D:\vishal\paperbird\server\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (D:\vishal\paperbird\server\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\vishal\paperbird\server\node_modules\mysql2\lib\connection.js:417:32)
+      at PacketParser.onPacket (D:\vishal\paperbird\server\node_modules\mysql2\lib\connection.js:75:12)
+      at PacketParser.executeStart (D:\vishal\paperbird\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\vishal\paperbird\server\node_modules\mysql2\lib\connection.js:82:25)
+      at Socket.emit (events.js:210:5)
+      at addChunk (_stream_readable.js:308:12)
+      at readableAddChunk (_stream_readable.js:289:11)
+      at Socket.Readable.push (_stream_readable.js:223:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_CANT_CREATE_TABLE',
+    errno: 1005,
+    sqlState: 'HY000',
+    sqlMessage: 'Can\'t create table `paperbird`.`purchase_order_details` (errno: 150 "Foreign key constraint is incorrectly formed")',
+    sql: 'CREATE TABLE IF NOT EXISTS `Purchase_Order_Details` (`ID` INTEGER NOT NULL auto_increment , `POID` INTEGER NOT NULL, `ProductID` INTEGER NOT NULL, `WarehouseID` INTEGER NOT NULL, `Qty` VARCHAR(255), `PricePU` INTEGER NOT NULL, `Discount` INTEGER NOT NULL, `Amount` INTEGER NOT NULL, `Tax1` INTEGER, `Tax2` INTEGER, `Freight` VARCHAR(255) NOT NULL, `OtherCharges` INTEGER NOT NULL, `TotalValue` INTEGER NOT NULL, `CreditDays` INTEGER NOT NULL, `PaymentTerms` VARCHAR(255) NOT NULL, `DeliveryTerms` VARCHAR(255) NOT NULL, `Remarks` VARCHAR(255), `InquiryDetailID` VARCHAR(255), `QuotationDetailID` VARCHAR(255), `OfferID` VARCHAR(255), `PRD_EXP_DEL_Date` VARCHAR(255), `IsActive` TINYINT(1) DEFAULT 1, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`ID`), FOREIGN KEY (`POID`) REFERENCES `Purchase_Order` (`ID`) ON DELETE NO ACTION ON UPDATE CASCADE, FOREIGN KEY (`ProductID`) REFERENCES `Paper_Class` (`ID`) ON DELETE NO ACTION ON UPDATE CASCADE, FOREIGN KEY (`WarehouseID`) REFERENCES `Supplier_Warehouse` (`ID`) ON DELETE NO ACTION ON UPDATE CASCADE, FOREIGN KEY (`InquiryDetailID`) REFERENCES `Inquiry_Details` (`ID`) ON DELETE SET NULL ON UPDATE CASCADE, FOREIGN KEY (`QuotationDetailID`) REFERENCES `Quotation_Details` (`ID`) ON DELETE SET NULL ON UPDATE CASCADE, FOREIGN KEY (`OfferID`) REFERENCES `Offers_Master` (`ID`) ON DELETE SET NULL ON UPDATE CASCADE) ENGINE=InnoDB;',
+    parameters: undefined
+  },
+  original: Error: Can't create table `paperbird`.`purchase_order_details` (errno: 150 "Foreign key constraint is incorrectly formed")
+      at Packet.asError (D:\vishal\paperbird\server\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (D:\vishal\paperbird\server\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (D:\vishal\paperbird\server\node_modules\mysql2\lib\connection.js:417:32)
+      at PacketParser.onPacket (D:\vishal\paperbird\server\node_modules\mysql2\lib\connection.js:75:12)
+      at PacketParser.executeStart (D:\vishal\paperbird\server\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\vishal\paperbird\server\node_modules\mysql2\lib\connection.js:82:25)
+      at Socket.emit (events.js:210:5)
+      at addChunk (_stream_readable.js:308:12)
+      at readableAddChunk (_stream_readable.js:289:11)
+      at Socket.Readable.push (_stream_readable.js:223:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:182:23) {
+    code: 'ER_CANT_CREATE_TABLE',
+    errno: 1005,
+    sqlState: 'HY000',
+    sqlMessage: 'Can\'t create table `paperbird`.`purchase_order_details` (errno: 150 "Foreign key constraint is incorrectly formed")',
+    sql: 'CREATE TABLE IF NOT EXISTS `Purchase_Order_Details` (`ID` INTEGER NOT NULL auto_increment , `POID` INTEGER NOT NULL, `ProductID` INTEGER NOT NULL, `WarehouseID` INTEGER NOT NULL, `Qty` VARCHAR(255), `PricePU` INTEGER NOT NULL, `Discount` INTEGER NOT NULL, `Amount` INTEGER NOT NULL, `Tax1` INTEGER, `Tax2` INTEGER, `Freight` VARCHAR(255) NOT NULL, `OtherCharges` INTEGER NOT NULL, `TotalValue` INTEGER NOT NULL, `CreditDays` INTEGER NOT NULL, `PaymentTerms` VARCHAR(255) NOT NULL, `DeliveryTerms` VARCHAR(255) NOT NULL, `Remarks` VARCHAR(255), `InquiryDetailID` VARCHAR(255), `QuotationDetailID` VARCHAR(255), `OfferID` VARCHAR(255), `PRD_EXP_DEL_Date` VARCHAR(255), `IsActive` TINYINT(1) DEFAULT 1, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`ID`), FOREIGN KEY (`POID`) REFERENCES `Purchase_Order` (`ID`) ON DELETE NO ACTION ON UPDATE CASCADE, FOREIGN KEY (`ProductID`) REFERENCES `Paper_Class` (`ID`) ON DELETE NO ACTION ON UPDATE CASCADE, FOREIGN KEY (`WarehouseID`) REFERENCES `Supplier_Warehouse` (`ID`) ON DELETE NO ACTION ON UPDATE CASCADE, FOREIGN KEY (`InquiryDetailID`) REFERENCES `Inquiry_Details` (`ID`) ON DELETE SET NULL ON UPDATE CASCADE, FOREIGN KEY (`QuotationDetailID`) REFERENCES `Quotation_Details` (`ID`) ON DELETE SET NULL ON UPDATE CASCADE, FOREIGN KEY (`OfferID`) REFERENCES `Offers_Master` (`ID`) ON DELETE SET NULL ON UPDATE CASCADE) ENGINE=InnoDB;',
+    parameters: undefined
+  },
+  sql: 'CREATE TABLE IF NOT EXISTS `Purchase_Order_Details` (`ID` INTEGER NOT NULL auto_increment , `POID` INTEGER NOT NULL, `ProductID` INTEGER NOT NULL, `WarehouseID` INTEGER NOT NULL, `Qty` VARCHAR(255), `PricePU` INTEGER NOT NULL, `Discount` INTEGER NOT NULL, `Amount` INTEGER NOT NULL, `Tax1` INTEGER, `Tax2` INTEGER, `Freight` VARCHAR(255) NOT NULL, `OtherCharges` INTEGER NOT NULL, `TotalValue` INTEGER NOT NULL, `CreditDays` INTEGER NOT NULL, `PaymentTerms` VARCHAR(255) NOT NULL, `DeliveryTerms` VARCHAR(255) NOT NULL, `Remarks` VARCHAR(255), `InquiryDetailID` VARCHAR(255), `QuotationDetailID` VARCHAR(255), `OfferID` VARCHAR(255), `PRD_EXP_DEL_Date` VARCHAR(255), `IsActive` TINYINT(1) DEFAULT 1, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`ID`), FOREIGN KEY (`POID`) REFERENCES `Purchase_Order` (`ID`) ON DELETE NO ACTION ON UPDATE CASCADE, FOREIGN KEY (`ProductID`) REFERENCES `Paper_Class` (`ID`) ON DELETE NO ACTION ON UPDATE CASCADE, FOREIGN KEY (`WarehouseID`) REFERENCES `Supplier_Warehouse` (`ID`) ON DELETE NO ACTION ON UPDATE CASCADE, FOREIGN KEY (`InquiryDetailID`) REFERENCES `Inquiry_Details` (`ID`) ON DELETE SET NULL ON UPDATE CASCADE, FOREIGN KEY (`QuotationDetailID`) REFERENCES `Quotation_Details` (`ID`) ON DELETE SET NULL ON UPDATE CASCADE, FOREIGN KEY (`OfferID`) REFERENCES `Offers_Master` (`ID`) ON DELETE SET NULL ON UPDATE CASCADE) ENGINE=InnoDB;',
+  parameters: undefined
+}
+[2020-10-02T17:13:13.894] [ERROR] Orient - Database authentication error ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at D:\vishal\paperbird\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:133:19
+    at tryCatcher (D:\vishal\paperbird\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\vishal\paperbird\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\vishal\paperbird\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\vishal\paperbird\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\vishal\paperbird\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (D:\vishal\paperbird\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\vishal\paperbird\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\vishal\paperbird\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (D:\vishal\paperbird\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:439:21) {
+  name: 'SequelizeConnectionError',
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (D:\vishal\paperbird\server\node_modules\mysql2\lib\connection.js:178:17)
+      at listOnTimeout (internal/timers.js:531:17)
+      at processTimers (internal/timers.js:475:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (D:\vishal\paperbird\server\node_modules\mysql2\lib\connection.js:178:17)
+      at listOnTimeout (internal/timers.js:531:17)
+      at processTimers (internal/timers.js:475:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+[2020-10-02T17:13:13.947] [ERROR] Orient - Database sync error ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at D:\vishal\paperbird\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:133:19
+    at tryCatcher (D:\vishal\paperbird\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\vishal\paperbird\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\vishal\paperbird\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\vishal\paperbird\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\vishal\paperbird\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (D:\vishal\paperbird\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\vishal\paperbird\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\vishal\paperbird\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (D:\vishal\paperbird\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:439:21) {
+  name: 'SequelizeConnectionError',
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (D:\vishal\paperbird\server\node_modules\mysql2\lib\connection.js:178:17)
+      at listOnTimeout (internal/timers.js:531:17)
+      at processTimers (internal/timers.js:475:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (D:\vishal\paperbird\server\node_modules\mysql2\lib\connection.js:178:17)
+      at listOnTimeout (internal/timers.js:531:17)
+      at processTimers (internal/timers.js:475:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+[2020-10-02T17:14:52.586] [ERROR] Orient - Database authentication error ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at D:\vishal\paperbird\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:133:19
+    at tryCatcher (D:\vishal\paperbird\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\vishal\paperbird\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\vishal\paperbird\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\vishal\paperbird\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\vishal\paperbird\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (D:\vishal\paperbird\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\vishal\paperbird\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\vishal\paperbird\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (D:\vishal\paperbird\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:439:21) {
+  name: 'SequelizeConnectionError',
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (D:\vishal\paperbird\server\node_modules\mysql2\lib\connection.js:178:17)
+      at listOnTimeout (internal/timers.js:531:17)
+      at processTimers (internal/timers.js:475:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (D:\vishal\paperbird\server\node_modules\mysql2\lib\connection.js:178:17)
+      at listOnTimeout (internal/timers.js:531:17)
+      at processTimers (internal/timers.js:475:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}
+[2020-10-02T17:14:52.619] [ERROR] Orient - Database sync error ConnectionError [SequelizeConnectionError]: connect ETIMEDOUT
+    at D:\vishal\paperbird\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:133:19
+    at tryCatcher (D:\vishal\paperbird\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\vishal\paperbird\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\vishal\paperbird\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\vishal\paperbird\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\vishal\paperbird\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (D:\vishal\paperbird\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\vishal\paperbird\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\vishal\paperbird\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (D:\vishal\paperbird\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:439:21) {
+  name: 'SequelizeConnectionError',
+  parent: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (D:\vishal\paperbird\server\node_modules\mysql2\lib\connection.js:178:17)
+      at listOnTimeout (internal/timers.js:531:17)
+      at processTimers (internal/timers.js:475:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  },
+  original: Error: connect ETIMEDOUT
+      at Connection._handleTimeoutError (D:\vishal\paperbird\server\node_modules\mysql2\lib\connection.js:178:17)
+      at listOnTimeout (internal/timers.js:531:17)
+      at processTimers (internal/timers.js:475:7) {
+    errorno: 'ETIMEDOUT',
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    fatal: true
+  }
+}

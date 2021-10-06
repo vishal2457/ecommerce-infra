@@ -1,0 +1,3 @@
+export const UPDATE_SLIDER = "UPDATE_SLIDER";
+export const CHANGE_SLIDER = "CHANGE_SLIDER";
+export const RESET_SLIDER = "RESET_SLIDER"

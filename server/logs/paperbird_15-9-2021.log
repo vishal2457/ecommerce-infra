@@ -1,0 +1,71 @@
+[2021-09-15T11:57:44.561] [ERROR] Paperbird - Database authentication error ConnectionRefusedError [SequelizeConnectionRefusedError]: connect ECONNREFUSED 127.0.0.1:3306
+    at C:\Projects\paperbird\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:123:19
+    at tryCatcher (C:\Projects\paperbird\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Projects\paperbird\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (C:\Projects\paperbird\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (C:\Projects\paperbird\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (C:\Projects\paperbird\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (C:\Projects\paperbird\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (C:\Projects\paperbird\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (C:\Projects\paperbird\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (C:\Projects\paperbird\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:461:21) {
+  parent: Error: connect ECONNREFUSED 127.0.0.1:3306
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16) {
+    errno: 'ECONNREFUSED',
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 3306,
+    fatal: true
+  },
+  original: Error: connect ECONNREFUSED 127.0.0.1:3306
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16) {
+    errno: 'ECONNREFUSED',
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 3306,
+    fatal: true
+  }
+}
+[2021-09-15T15:22:54.847] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][12:30:32 PM], All data
+[2021-09-15T15:34:07.603] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][12:30:32 PM], All data
+[2021-09-15T15:50:17.053] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][12:30:32 PM], All data
+[2021-09-15T15:50:17.055] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][12:30:32 PM], All data
+[2021-09-15T15:50:17.126] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][12:30:32 PM], All data
+[2021-09-15T15:50:17.202] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][12:30:32 PM], All data
+[2021-09-15T15:50:17.236] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][12:30:32 PM], All data
+[2021-09-15T15:50:17.255] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][12:30:32 PM], All data
+[2021-09-15T15:50:17.284] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][12:30:32 PM], All data
+[2021-09-15T15:50:17.308] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][12:30:32 PM], All data
+[2021-09-15T15:50:17.322] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][12:30:32 PM], All data
+[2021-09-15T15:50:17.475] [INFO] Paperbird - [/getSupplier, {"post":true}][12:30:32 PM], Supplier Data
+[2021-09-15T15:50:17.629] [INFO] Paperbird - [/allProducts, {"post":true}][12:30:32 PM], All products
+[2021-09-15T15:57:58.394] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][12:30:32 PM], All data
+[2021-09-15T15:57:58.395] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][12:30:32 PM], All data
+[2021-09-15T15:57:58.414] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][12:30:32 PM], All data
+[2021-09-15T15:57:58.443] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][12:30:32 PM], All data
+[2021-09-15T15:57:58.451] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][12:30:32 PM], All data
+[2021-09-15T15:57:58.460] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][12:30:32 PM], All data
+[2021-09-15T15:57:58.480] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][12:30:32 PM], All data
+[2021-09-15T15:57:58.493] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][12:30:32 PM], All data
+[2021-09-15T15:57:58.500] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][12:30:32 PM], All data
+[2021-09-15T15:57:58.513] [INFO] Paperbird - [/getSupplier, {"post":true}][12:30:32 PM], Supplier Data
+[2021-09-15T15:57:58.570] [INFO] Paperbird - [/allProducts, {"post":true}][12:30:32 PM], All products
+[2021-09-15T15:58:11.529] [INFO] Paperbird - [/customer, {"post":true}][12:30:32 PM], Customer Login Successfull
+[2021-09-15T15:58:11.610] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][12:30:32 PM], All data
+[2021-09-15T15:58:11.613] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][12:30:32 PM], All data
+[2021-09-15T15:58:11.627] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][12:30:32 PM], All data
+[2021-09-15T15:58:11.642] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][12:30:32 PM], All data
+[2021-09-15T15:58:11.651] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][12:30:32 PM], All data
+[2021-09-15T15:58:11.660] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][12:30:32 PM], All data
+[2021-09-15T15:58:11.673] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][12:30:32 PM], All data
+[2021-09-15T15:58:11.682] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][12:30:32 PM], All data
+[2021-09-15T15:58:11.689] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][12:30:32 PM], All data
+[2021-09-15T15:58:11.705] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][12:30:32 PM], All customer groups
+[2021-09-15T15:58:11.735] [INFO] Paperbird - [/getSupplier, {"post":true}][12:30:32 PM], Supplier Data
+[2021-09-15T15:58:11.786] [INFO] Paperbird - [/allProducts, {"post":true}][12:30:32 PM], All products
+[2021-09-15T16:25:21.840] [INFO] Paperbird - [/getNotification, {"post":true}][12:30:32 PM], first five notifications
+[2021-09-15T16:31:14.829] [INFO] Paperbird - [/getNotification, {"post":true}][4:30:28 PM], first five notifications
+[2021-09-15T16:31:19.979] [INFO] Paperbird - [/getNotification, {"post":true}][4:30:28 PM], first five notifications

@@ -1,0 +1,8 @@
+[2020-10-05T16:04:34.186] [ERROR] Orient - [Auth][Login (post)][4:04:28 PM], Error: WHERE parameter "email" has invalid "undefined" value
+[2020-10-05T16:05:11.869] [ERROR] Orient - [Auth][Login (post)][4:05:09 PM], Error: WHERE parameter "email" has invalid "undefined" value
+[2020-10-05T16:05:41.629] [WARN] Orient - [Auth][Login (post)][4:05:41 PM], Invalid email
+[2020-10-05T16:05:41.632] [ERROR] Orient - [Auth][Login (post)][4:05:41 PM], TypeError: Cannot read property 'warn' of undefined
+[2020-10-05T16:06:28.054] [WARN] Orient - [Auth][Login (post)][4:06:15 PM], Invalid email
+[2020-10-05T16:06:28.061] [ERROR] Orient - [Auth][Login (post)][4:06:15 PM], TypeError: Cannot read property 'warn' of undefined
+[2020-10-05T16:07:17.142] [WARN] Orient - [/, undefined][4:07:16 PM], Invalid credentials
+[2020-10-05T16:07:30.493] [WARN] Orient - [/, undefined][4:07:16 PM], Invalid credentials

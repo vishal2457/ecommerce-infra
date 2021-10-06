@@ -1,0 +1,499 @@
+[2021-09-29T10:38:15.150] [ERROR] Paperbird - Something went wrong: ReferenceError: successResponses is not defined
+    at C:\Projects\paperbird\server\routes\Dashboard\index.js:10:5
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at module.exports (C:\Projects\paperbird\server\middlewares\jwtauth.js:56:5)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at C:\Projects\paperbird\server\app.js:186:3
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:127:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+[2021-09-29T10:38:32.513] [INFO] Paperbird - [/getSupplierMessages/:id, {"get":true}][10:36:10 AM], Customers chat room
+[2021-09-29T14:56:09.866] [INFO] Paperbird - [/, {"post":true}][2:55:04 PM], Login successful
+[2021-09-29T14:56:09.964] [ERROR] Paperbird - Something went wrong: ReferenceError: successResponses is not defined
+    at C:\Projects\paperbird\server\routes\Dashboard\index.js:10:5
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at module.exports (C:\Projects\paperbird\server\middlewares\jwtauth.js:56:5)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at C:\Projects\paperbird\server\app.js:186:3
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:127:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+[2021-09-29T14:56:13.924] [ERROR] Paperbird - Something went wrong: ReferenceError: successResponses is not defined
+    at C:\Projects\paperbird\server\routes\Dashboard\index.js:10:5
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at module.exports (C:\Projects\paperbird\server\middlewares\jwtauth.js:56:5)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at C:\Projects\paperbird\server\app.js:186:3
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:127:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+[2021-09-29T14:56:16.851] [INFO] Paperbird - [/getSupplierMessages/:id, {"get":true}][2:55:04 PM], Customers chat room
+[2021-09-29T14:56:17.814] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][2:55:04 PM], Chat Messages
+[2021-09-29T14:57:38.475] [ERROR] Paperbird - Something went wrong: ReferenceError: successResponses is not defined
+    at C:\Projects\paperbird\server\routes\Dashboard\index.js:10:5
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at module.exports (C:\Projects\paperbird\server\middlewares\jwtauth.js:56:5)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at C:\Projects\paperbird\server\app.js:186:3
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:127:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+[2021-09-29T14:57:48.039] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:55:04 PM], All data
+[2021-09-29T14:59:36.299] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:55:04 PM], All data
+[2021-09-29T14:59:36.300] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:55:04 PM], All data
+[2021-09-29T14:59:36.353] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][2:55:04 PM], All data
+[2021-09-29T14:59:36.425] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][2:55:04 PM], All data
+[2021-09-29T14:59:36.481] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][2:55:04 PM], All data
+[2021-09-29T14:59:36.496] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][2:55:04 PM], All data
+[2021-09-29T14:59:36.520] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][2:55:04 PM], All data
+[2021-09-29T14:59:36.539] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][2:55:04 PM], All data
+[2021-09-29T14:59:36.553] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][2:55:04 PM], All data
+[2021-09-29T14:59:36.643] [INFO] Paperbird - [/getSupplier, {"post":true}][2:55:04 PM], Supplier Data
+[2021-09-29T14:59:36.774] [INFO] Paperbird - [/allProducts, {"post":true}][2:55:04 PM], All products
+[2021-09-29T14:59:43.437] [INFO] Paperbird - [/customer, {"post":true}][2:55:04 PM], Customer Login Successfull
+[2021-09-29T14:59:44.844] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:55:04 PM], All data
+[2021-09-29T14:59:44.845] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][2:55:04 PM], All data
+[2021-09-29T14:59:44.907] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][2:55:04 PM], All data
+[2021-09-29T14:59:44.933] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][2:55:04 PM], All data
+[2021-09-29T14:59:44.987] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][2:55:04 PM], All data
+[2021-09-29T14:59:45.004] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][2:55:04 PM], All data
+[2021-09-29T14:59:45.018] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][2:55:04 PM], All data
+[2021-09-29T14:59:45.031] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][2:55:04 PM], All data
+[2021-09-29T14:59:45.042] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][2:55:04 PM], All data
+[2021-09-29T14:59:45.077] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][2:55:04 PM], All customer groups
+[2021-09-29T14:59:45.111] [INFO] Paperbird - [/getSupplier, {"post":true}][2:55:04 PM], Supplier Data
+[2021-09-29T14:59:45.201] [INFO] Paperbird - [/allProducts, {"post":true}][2:55:04 PM], All products
+[2021-09-29T15:00:35.743] [INFO] Paperbird - [/getCustomerChats/:id, {"get":true}][2:55:04 PM], Customers chat room
+[2021-09-29T15:00:36.935] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][2:55:04 PM], Chat Messages
+[2021-09-29T15:09:28.579] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][2:55:04 PM], Chat Messages
+[2021-09-29T15:09:29.156] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][2:55:04 PM], Chat Messages
+[2021-09-29T15:12:06.247] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][2:55:04 PM], Chat Messages
+[2021-09-29T15:12:06.673] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][2:55:04 PM], Chat Messages
+[2021-09-29T15:40:36.420] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][2:55:04 PM], Chat Messages
+[2021-09-29T15:40:36.889] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][2:55:04 PM], Chat Messages
+[2021-09-29T16:04:05.531] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][2:55:04 PM], Chat Messages
+[2021-09-29T16:04:05.809] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][2:55:04 PM], Chat Messages
+[2021-09-29T16:06:44.626] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][2:55:04 PM], Chat Messages
+[2021-09-29T16:06:45.043] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][2:55:04 PM], Chat Messages
+[2021-09-29T16:15:00.760] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][2:55:04 PM], Chat Messages
+[2021-09-29T16:15:01.161] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][2:55:04 PM], Chat Messages
+[2021-09-29T16:22:25.179] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][2:55:04 PM], Chat Messages
+[2021-09-29T16:22:25.667] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][2:55:04 PM], Chat Messages
+[2021-09-29T17:22:39.465] [ERROR] Paperbird - Database authentication error ConnectionRefusedError [SequelizeConnectionRefusedError]: connect ECONNREFUSED 127.0.0.1:3306
+    at C:\Projects\paperbird\server\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:123:19
+    at tryCatcher (C:\Projects\paperbird\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Projects\paperbird\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (C:\Projects\paperbird\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (C:\Projects\paperbird\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (C:\Projects\paperbird\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (C:\Projects\paperbird\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (C:\Projects\paperbird\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (C:\Projects\paperbird\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (C:\Projects\paperbird\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:461:21) {
+  parent: Error: connect ECONNREFUSED 127.0.0.1:3306
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16) {
+    errno: 'ECONNREFUSED',
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 3306,
+    fatal: true
+  },
+  original: Error: connect ECONNREFUSED 127.0.0.1:3306
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16) {
+    errno: 'ECONNREFUSED',
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 3306,
+    fatal: true
+  }
+}
+[2021-09-29T17:23:42.244] [ERROR] Paperbird - Something went wrong: ReferenceError: successResponses is not defined
+    at C:\Projects\paperbird\server\routes\Dashboard\index.js:10:5
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at module.exports (C:\Projects\paperbird\server\middlewares\jwtauth.js:56:5)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at C:\Projects\paperbird\server\app.js:186:3
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:127:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+[2021-09-29T17:23:48.876] [INFO] Paperbird - [/getAllProductSubgroup/:name, {"get":true}][5:23:47 PM], All data
+[2021-09-29T17:23:48.915] [INFO] Paperbird - [/getAllPaperClass/:name, {"get":true}][5:23:47 PM], All data
+[2021-09-29T17:23:48.942] [INFO] Paperbird - [/getAllPaperQuality/:name, {"get":true}][5:23:47 PM], All data
+[2021-09-29T17:23:48.964] [INFO] Paperbird - [/getAllPaperPrintibility/:name, {"get":true}][5:23:47 PM], All data
+[2021-09-29T17:23:48.999] [INFO] Paperbird - [/getAllPaperColor/:name, {"get":true}][5:23:47 PM], All data
+[2021-09-29T17:23:49.038] [INFO] Paperbird - [/getAllMeasurementUnit/:name, {"get":true}][5:23:47 PM], All data
+[2021-09-29T17:23:49.067] [INFO] Paperbird - [/getAllPaperGrain/:name, {"get":true}][5:23:47 PM], All data
+[2021-09-29T17:23:49.090] [INFO] Paperbird - [/getAllGroupsForCustomer, {"get":true}][5:23:47 PM], All customer groups
+[2021-09-29T17:23:49.247] [INFO] Paperbird - [/getSupplier, {"post":true}][5:23:47 PM], Supplier Data
+[2021-09-29T17:23:49.433] [INFO] Paperbird - [/allProducts, {"post":true}][5:23:47 PM], All products
+[2021-09-29T17:23:52.794] [INFO] Paperbird - [/getCustomerChats/:id, {"get":true}][5:23:47 PM], Customers chat room
+[2021-09-29T17:23:54.757] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][5:23:47 PM], Chat Messages
+[2021-09-29T17:24:24.301] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][5:23:47 PM], All data
+[2021-09-29T17:24:24.401] [INFO] Paperbird - [/getCustomerOrders, {"post":true}][5:23:47 PM], This are all customer Orders
+[2021-09-29T17:24:24.468] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][5:23:47 PM], All Orders
+[2021-09-29T17:24:24.495] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][5:23:47 PM], All Orders
+[2021-09-29T17:24:25.711] [INFO] Paperbird - [/getSupplierMessages/:id, {"get":true}][5:23:47 PM], Customers chat room
+[2021-09-29T17:24:32.892] [INFO] Paperbird - [/getSupplierMessages/:id, {"get":true}][5:23:47 PM], Customers chat room
+[2021-09-29T17:24:33.455] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][5:23:47 PM], Chat Messages
+[2021-09-29T17:26:55.201] [INFO] Paperbird - [/getSupplierMessages/:id, {"get":true}][5:23:47 PM], Customers chat room
+[2021-09-29T17:26:57.536] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][5:23:47 PM], Chat Messages
+[2021-09-29T17:27:57.685] [ERROR] Paperbird - Something went wrong: ReferenceError: successResponses is not defined
+    at C:\Projects\paperbird\server\routes\Dashboard\index.js:10:5
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at module.exports (C:\Projects\paperbird\server\middlewares\jwtauth.js:56:5)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at C:\Projects\paperbird\server\app.js:186:3
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:127:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+[2021-09-29T17:28:01.470] [INFO] Paperbird - [/getSupplierMessages/:id, {"get":true}][5:23:47 PM], Customers chat room
+[2021-09-29T17:28:02.301] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][5:23:47 PM], Chat Messages
+[2021-09-29T17:28:08.377] [INFO] Paperbird - [/getSupplierMessages/:id, {"get":true}][5:23:47 PM], Customers chat room
+[2021-09-29T17:30:38.620] [ERROR] Paperbird - Something went wrong: ReferenceError: successResponses is not defined
+    at C:\Projects\paperbird\server\routes\Dashboard\index.js:10:5
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at module.exports (C:\Projects\paperbird\server\middlewares\jwtauth.js:56:5)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at C:\Projects\paperbird\server\app.js:186:3
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:127:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+[2021-09-29T17:30:41.290] [INFO] Paperbird - [/getSupplierMessages/:id, {"get":true}][5:23:47 PM], Customers chat room
+[2021-09-29T17:31:24.875] [ERROR] Paperbird - Something went wrong: ReferenceError: successResponses is not defined
+    at C:\Projects\paperbird\server\routes\Dashboard\index.js:10:5
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at module.exports (C:\Projects\paperbird\server\middlewares\jwtauth.js:56:5)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at C:\Projects\paperbird\server\app.js:186:3
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:127:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+[2021-09-29T17:31:26.494] [INFO] Paperbird - [/getSupplierMessages/:id, {"get":true}][5:23:47 PM], Customers chat room
+[2021-09-29T17:32:04.243] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][5:23:47 PM], Chat Messages
+[2021-09-29T17:32:12.812] [INFO] Paperbird - [/getSupplierMessages/:id, {"get":true}][5:23:47 PM], Customers chat room
+[2021-09-29T17:32:16.961] [INFO] Paperbird - [/getSupplierMessages/:id, {"get":true}][5:23:47 PM], Customers chat room
+[2021-09-29T17:32:20.312] [INFO] Paperbird - [/getSupplierMessages/:id, {"get":true}][5:23:47 PM], Customers chat room
+[2021-09-29T17:32:41.088] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][5:23:47 PM], All data
+[2021-09-29T17:32:41.113] [INFO] Paperbird - [/getCustomerOrders, {"post":true}][5:23:47 PM], This are all customer Orders
+[2021-09-29T17:32:41.223] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][5:23:47 PM], All Orders
+[2021-09-29T17:32:41.225] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][5:23:47 PM], All Orders
+[2021-09-29T17:32:43.337] [INFO] Paperbird - [/getCustomerChats/:id, {"get":true}][5:23:47 PM], Customers chat room
+[2021-09-29T17:32:45.342] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][5:23:47 PM], Chat Messages
+[2021-09-29T17:36:37.637] [INFO] Paperbird - [/getCustomerChats/:id, {"get":true}][5:23:47 PM], Customers chat room
+[2021-09-29T18:32:28.136] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][5:23:47 PM], Chat Messages
+[2021-09-29T18:33:47.904] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][5:23:47 PM], Chat Messages
+[2021-09-29T18:34:00.999] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][5:23:47 PM], Chat Messages
+[2021-09-29T18:39:30.776] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][5:23:47 PM], All data
+[2021-09-29T18:39:30.786] [INFO] Paperbird - [/getCustomerOrders, {"post":true}][5:23:47 PM], This are all customer Orders
+[2021-09-29T18:39:31.017] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][5:23:47 PM], All Orders
+[2021-09-29T18:39:31.018] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][5:23:47 PM], All Orders
+[2021-09-29T18:39:32.661] [INFO] Paperbird - [/getCustomerChats/:id, {"get":true}][5:23:47 PM], Customers chat room
+[2021-09-29T18:39:33.744] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][5:23:47 PM], Chat Messages
+[2021-09-29T19:20:47.861] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][5:23:47 PM], All data
+[2021-09-29T19:20:47.871] [INFO] Paperbird - [/getCustomerOrders, {"post":true}][5:23:47 PM], This are all customer Orders
+[2021-09-29T19:20:48.166] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][5:23:47 PM], All Orders
+[2021-09-29T19:20:48.168] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][5:23:47 PM], All Orders
+[2021-09-29T19:20:49.025] [INFO] Paperbird - [/getCustomerChats/:id, {"get":true}][5:23:47 PM], Customers chat room
+[2021-09-29T19:20:49.884] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][5:23:47 PM], Chat Messages
+[2021-09-29T19:22:27.463] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][5:23:47 PM], Chat Messages
+[2021-09-29T19:22:27.963] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][5:23:47 PM], Chat Messages
+[2021-09-29T19:22:48.535] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][5:23:47 PM], All data
+[2021-09-29T19:22:48.553] [INFO] Paperbird - [/getCustomerOrders, {"post":true}][5:23:47 PM], This are all customer Orders
+[2021-09-29T19:22:48.816] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][5:23:47 PM], All Orders
+[2021-09-29T19:22:48.818] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][5:23:47 PM], All Orders
+[2021-09-29T19:22:49.523] [INFO] Paperbird - [/getCustomerChats/:id, {"get":true}][5:23:47 PM], Customers chat room
+[2021-09-29T19:22:50.165] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][5:23:47 PM], Chat Messages
+[2021-09-29T19:23:35.635] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][5:23:47 PM], All data
+[2021-09-29T19:23:35.636] [INFO] Paperbird - [/getCustomerChats/:id, {"get":true}][5:23:47 PM], Customers chat room
+[2021-09-29T19:23:35.645] [INFO] Paperbird - [/getCustomerOrders, {"post":true}][5:23:47 PM], This are all customer Orders
+[2021-09-29T19:23:35.712] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][5:23:47 PM], All Orders
+[2021-09-29T19:23:35.714] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][5:23:47 PM], All Orders
+[2021-09-29T19:23:52.419] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][5:23:47 PM], All data
+[2021-09-29T19:23:52.430] [INFO] Paperbird - [/getCustomerOrders, {"post":true}][5:23:47 PM], This are all customer Orders
+[2021-09-29T19:23:52.694] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][5:23:47 PM], All Orders
+[2021-09-29T19:23:52.709] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][5:23:47 PM], All Orders
+[2021-09-29T19:23:53.052] [INFO] Paperbird - [/getCustomerChats/:id, {"get":true}][5:23:47 PM], Customers chat room
+[2021-09-29T19:23:53.946] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][5:23:47 PM], Chat Messages
+[2021-09-29T19:32:26.121] [INFO] Paperbird - [/getCustomerChats/:id, {"get":true}][5:23:47 PM], Customers chat room
+[2021-09-29T19:32:26.123] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][5:23:47 PM], All data
+[2021-09-29T19:32:26.132] [INFO] Paperbird - [/getCustomerOrders, {"post":true}][5:23:47 PM], This are all customer Orders
+[2021-09-29T19:32:26.175] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][5:23:47 PM], All Orders
+[2021-09-29T19:33:00.635] [INFO] Paperbird - [/getCustomerChats/:id, {"get":true}][5:23:47 PM], Customers chat room
+[2021-09-29T19:33:00.640] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][5:23:47 PM], All data
+[2021-09-29T19:33:00.651] [INFO] Paperbird - [/getCustomerOrders, {"post":true}][5:23:47 PM], This are all customer Orders
+[2021-09-29T19:33:00.757] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][5:23:47 PM], All Orders
+[2021-09-29T19:33:14.949] [INFO] Paperbird - [/getCustomerChats/:id, {"get":true}][5:23:47 PM], Customers chat room
+[2021-09-29T19:33:14.951] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][5:23:47 PM], All data
+[2021-09-29T19:33:14.969] [INFO] Paperbird - [/getCustomerOrders, {"post":true}][5:23:47 PM], This are all customer Orders
+[2021-09-29T19:33:15.027] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][5:23:47 PM], All Orders
+[2021-09-29T19:33:15.046] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][5:23:47 PM], All Orders
+[2021-09-29T19:35:29.529] [INFO] Paperbird - [/getCustomerOrders, {"post":true}][7:35:28 PM], This are all customer Orders
+[2021-09-29T19:35:29.601] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][7:35:28 PM], All Orders
+[2021-09-29T19:35:29.627] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][7:35:28 PM], All Orders
+[2021-09-29T19:35:33.880] [INFO] Paperbird - [/getAllProductGroup/:name, {"get":true}][7:35:28 PM], All data
+[2021-09-29T19:35:33.894] [INFO] Paperbird - [/getCustomerOrders, {"post":true}][7:35:28 PM], This are all customer Orders
+[2021-09-29T19:35:33.965] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][7:35:28 PM], All Orders
+[2021-09-29T19:35:33.982] [INFO] Paperbird - [/getSingleCustomerOrder/:id, {"get":true}][7:35:28 PM], All Orders
+[2021-09-29T19:35:34.844] [INFO] Paperbird - [/getCustomerChats/:id, {"get":true}][7:35:28 PM], Customers chat room
+[2021-09-29T19:35:50.661] [ERROR] Paperbird - Something went wrong: ReferenceError: successResponses is not defined
+    at C:\Projects\paperbird\server\routes\Dashboard\index.js:10:5
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at module.exports (C:\Projects\paperbird\server\middlewares\jwtauth.js:56:5)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at C:\Projects\paperbird\server\app.js:186:3
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:127:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+[2021-09-29T19:35:51.961] [INFO] Paperbird - [/getSupplierMessages/:id, {"get":true}][7:35:28 PM], Customers chat room
+[2021-09-29T19:36:09.883] [ERROR] Paperbird - Something went wrong: ReferenceError: successResponses is not defined
+    at C:\Projects\paperbird\server\routes\Dashboard\index.js:10:5
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at module.exports (C:\Projects\paperbird\server\middlewares\jwtauth.js:56:5)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at C:\Projects\paperbird\server\app.js:186:3
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:127:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+[2021-09-29T19:36:11.269] [INFO] Paperbird - [/getSupplierMessages/:id, {"get":true}][7:36:02 PM], Customers chat room
+[2021-09-29T19:36:17.067] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][7:36:02 PM], Chat Messages
+[2021-09-29T19:36:17.094] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][7:36:02 PM], Chat Messages
+[2021-09-29T19:36:17.096] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][7:36:02 PM], Chat Messages
+[2021-09-29T19:36:17.165] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][7:36:02 PM], Chat Messages
+[2021-09-29T19:36:17.173] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][7:36:02 PM], Chat Messages
+[2021-09-29T19:36:17.182] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][7:36:02 PM], Chat Messages
+[2021-09-29T19:36:17.183] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][7:36:02 PM], Chat Messages
+[2021-09-29T19:36:22.298] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][7:36:02 PM], Chat Messages
+[2021-09-29T19:38:06.294] [ERROR] Paperbird - Something went wrong: ReferenceError: successResponses is not defined
+    at C:\Projects\paperbird\server\routes\Dashboard\index.js:10:5
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at module.exports (C:\Projects\paperbird\server\middlewares\jwtauth.js:56:5)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at C:\Projects\paperbird\server\app.js:186:3
+    at Layer.handle [as handle_request] (C:\Projects\paperbird\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\index.js:275:10)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:127:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Projects\paperbird\server\node_modules\express\lib\router\route.js:131:14)
+[2021-09-29T19:38:07.331] [INFO] Paperbird - [/getSupplierMessages/:id, {"get":true}][7:36:02 PM], Customers chat room
+[2021-09-29T19:38:08.051] [INFO] Paperbird - [/getChatMessages/:id, {"get":true}][7:36:02 PM], Chat Messages
